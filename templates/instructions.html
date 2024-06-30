@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions - Nestclub</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/instructions.css') }}">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Nestclub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/survey">Properties</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/privacy-policy">Terms&Guidelines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-light contact-us" href="/contactus">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="container">
+    <header id="section1" class="section-header">
+        <h2>Hostel Types</h2>
+    </header>
+    <div class="section-content">
+        <div class="description-section">
+            <h4>Men's Hostel (MH)</h4>
+            <p>Men's Hostels (MH) offer comfortable and affordable living accommodations exclusively for male students and working professionals. These hostels provide essential amenities such as furnished rooms, common areas, and security services to ensure a safe and conducive environment for residents.</p>
+        </div>
+        <div class="description-section">
+            <h4>Ladies Hostel (LH)</h4>
+            <p>Ladies Hostels (LH) cater specifically to female students and working professionals, offering a secure and supportive living environment. These hostels are equipped with modern facilities, including furnished rooms, common spaces, and round-the-clock security to ensure the safety and well-being of residents.</p>
+        </div>
+        <div class="description-section">
+            <h4>Paying Guest - Men (PG-M)</h4>
+            <p>Paying Guest accommodations for men (PG-M) provide an affordable and flexible living option for male students and professionals with home owners. Residents can enjoy furnished rooms, shared common areas, and basic amenities while experiencing a homely atmosphere.</p>
+        </div>
+        <div class="description-section">
+            <h4>Paying Guest - Ladies (PG-L)</h4>
+            <p>Paying Guest accommodations for ladies (PG-L) offer a cost-effective and comfortable living solution for female students and professionals with home owners. These facilities provide furnished rooms, shared living spaces, and essential amenities in a safe and welcoming environment.</p>
+        </div>
+        <div class="description-section">
+            <h4>Full House - Men (FH-M)</h4>
+            <p>Full House rentals for men (FH-M) are ideal for male students or professionals seeking private and spacious living arrangements. These houses come fully providing a convenient and independent living experience.</p>
+        </div>
+        <div class="description-section">
+            <h4>Full House - Ladies (FH-L)</h4>
+            <p>Full House rentals for ladies (FH-L) offer a private and spacious living solution for female students or professionals. These houses are fully ensuring a convenient and independent living environment.</p>
+        </div>
+    </div>
+
+    <header id="section2" class="section-header">
+        <h2>Terms and Guidelines</h2>
+    </header>
+    <div class="section-content">
+        <div class="description-section">
+            <div class="numbered-list">
+                <p>All residents must adhere to the hostel's rules and regulations, which are designed to ensure a safe and harmonious living environment.</p>
+                <p>Rent must be paid on or before the due date each month. Late payments may incur additional charges (may vary in some hostels).</p>
+                <p>Residents are responsible for keeping their rooms and common areas clean and tidy to avoid diseases.</p>
+                <p>Any damage to property must be reported immediately and may result in repair costs being deducted from the security deposit (may vary in some hostels).</p>
+                <p>Visitors are allowed only during specified hours and must be registered at the front desk for female hostels.</p>
+                <p>Noise levels should be kept to a minimum to respect the comfort of other residents.</p>
+                <p>The use of illegal substances and involvement in illegal activities is strictly prohibited and will result in immediate eviction.</p>
+                <p>The hostel management reserves the right to conduct room inspections to ensure compliance with hostel rules.</p>
+                <p>Residents must vacate the premises at the end of their lease term unless a renewal has been agreed upon with the management.</p>
+                <p>The management reserves the right to amend these terms and conditions as necessary.</p>
+                <p>The website owners (Nestclub) are not responsible for any hostel scams or issues related to money or personal matters.</p>
+                <p>The website serves as a medium to contact owners. By agreeing to the terms and conditions, 
+                    users consent to share their details with hostel owners.</p>
+                <p>The user must visit the respective hostel before making any deal with the owner to maintain integrity.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 Nestclub. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    // Intersection Observer API
+    document.addEventListener('DOMContentLoaded', function() {
+        const sections = document.querySelectorAll('.section-header, .description-section');
+        
+        const observerOptions = {
+            threshold: 0.1
+        };
+        
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    });
+</script>
+</body>
+</html>

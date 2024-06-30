@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Details - Nestclub</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/details.css') }}">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Nestclub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/survey">Properties</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/privacy-policy">Terms&Guidelines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-light contact-us" href="/contactus">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container details-section fade-in">
+
+        <header class="property-header fade-in">
+            <h1>{{ details.hostel_name }}</h1>
+            <h3>{{ details.hostel_s_address }}</h3>
+        </header>
+
+        <div class="property-layout">
+            <div id="propertyCarousel" class="carousel slide fade-in" data-ride="carousel" data-interval="3000">
+                <ol class="carousel-indicators">
+                    {% for image in details.hostel_images %}
+                        <li data-target="#propertyCarousel" data-slide-to="{{ loop.index0 }}" {% if loop.first %}class="active"{% endif %}></li>
+                    {% endfor %}
+                </ol>
+                <div class="carousel-inner">
+                    {% for image in details.hostel_images %}
+                        <div class="carousel-item {% if loop.first %}active{% endif %}">
+                            <img src="{{ image }}" class="d-block w-100" alt="Property Image {{ loop.index }}">
+                        </div>
+                    {% endfor %}
+                </div>
+                <a class="carousel-control-prev" href="#propertyCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#propertyCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="description fade-in">
+                <h4>Description</h4>
+                <p>{{ details.hostel_desc }}</p>
+            </div>
+            
+            <div class="features fade-in">
+                <h4>Key Features and Amenities</h4>
+                <ul>
+                    {% for amenity in details.hostel_amenities %}
+                        <li><i class="fas fa-check-circle"></i> {{ amenity }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+        <div class="additional-fees mt-4 fade-in">
+            <h4>Additional Fees</h4>
+            {% for fee in details.hostel_fees %}
+                <div class="fee-item">
+                    <div class="fee-description">
+                        <p>{{ fee[0] }}</p>
+                        <small>{{ fee[1] }}</small>
+                    </div>
+                    <p>{{ fee[2] }}</p>
+                </div>
+            {% endfor %}
+            <div class="learn-more">
+                Fee structure may vary, Contact owner for more info. 
+            </div>
+        </div>
+
+        <div class="row contact-form fade-in">
+            <div class="col-md-12">
+                <h4>Inquire About {{ details.hostel_name }}</h4>
+                <form action="/client-request" method="post" id="requestForm">
+
+                    <!-- Hidden input field to store hostel ID -->
+                    <input type="hidden" name="hostel_id" value="{{ details.hostel_id }}">
+
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Enter Full Name" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="semester">Semester *</label>
+                            <input type="text" class="form-control" id="semester" name="semester" placeholder="eg:S5" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="department">Department *</label>
+                            <input type="text" class="form-control" id="department" name="department" placeholder="eg:CSD" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="college">College Name *</label>
+                        <input type="text" class="form-control" id="college" name="college" placeholder="Enter your college" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone *</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter Phone Number (10 digits)" required
+                               pattern="[0-9]{10}" title="Please enter a 10-digit phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="termsCheck" name="termsCheck" required>
+                        <label class="form-check-label" for="termsCheck">
+                            I agree with <a href="/privacy-policy" style="color: inherit; text-decoration: underline;">Terms of Use and Privacy Policy</a>
+                        </label>
+                    </div>
+                    <div class="form-group text-left"> <!-- Added text-right class here -->
+                        <button type="submit" class="btn btn-primary" id="submitButton">Send Your Request</button>
+                    </div>
+                    <small>Please wait a moment after clicking the "send your request" button.</small>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="fade-in">
+        <p>&copy; 2024 Nestclub. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('fullName').addEventListener('input', function() {
+            var fullNameInput = this.value.trim(); // Trim whitespace from input
+            var errorMessage = document.getElementById('fullNameError');
+            
+            if (fullNameInput.length <= 2) {
+                this.setCustomValidity('Name must be greater than 2 letters.');
+                errorMessage.textContent = 'Name must be greater than 2 letters.';
+            } else {
+                this.setCustomValidity('');
+                errorMessage.textContent = '';
+            }
+        });
+    </script>
+    <script>
+        document.getElementById('requestForm').addEventListener('submit', function() {
+            document.getElementById('submitButton').disabled = true;
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            const elementsToObserve = document.querySelectorAll('.fade-in');
+            elementsToObserve.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+</body>
+</html>

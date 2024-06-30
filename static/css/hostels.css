@@ -1,0 +1,124 @@
+
+body {
+    /* background: linear-gradient(45deg, #000000, #1f1f1f); */
+    background: #121212;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .card {
+    border: 3px solid #171616;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body .badge {
+    margin-right: 5px;
+    background-color: #282828;
+    color: #ffffff;
+    padding: 0.5em 0.75em;
+    border-radius: 10px;
+    font-size: 0.9em;
+    margin-top: 1.5px;
+  }
+
+  .card-body a.text-info {
+    color: #a0a0a0;
+  }
+
+  .card-body a.text-info:hover {
+    color: #ffffff;
+  }
+
+  .btn-primary {
+    background-color: #6a0dad;
+    border: none;
+    width: 100px;
+  }
+
+  .btn-primary:hover {
+    background-color: #5a0b9a;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar {
+    background-color: #121212;
+  }
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 20px;
+    animation: slideInDown 1s ease-out;
+  }
+  @keyframes slideInDown {
+    from {
+      transform: translateY(-20px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .navbar-nav .nav-item {
+    text-align: center;
+  }
+  .navbar-toggler-icon {
+    color: aliceblue;
+  }
+  h2 {
+    text-align: left;
+  }
+  .container p.text-center {
+    text-align: left;
+  }
+  .footer {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    width: 100%;
+    animation: slideInUp 1s ease-out;
+    position: relative;
+    clear: both;
+  }
+  .fade-in {
+opacity: 0;
+transform: translateY(20px);
+transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+opacity: 1;
+transform: translateY(0);
+}
+  .contact-us:hover{
+    color:#121212;
+    font-weight: bolder;
+
+  }

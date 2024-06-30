@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+.navbar {
+    background-color: #121212;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 20px;
+    animation: slideInDown 1s ease-out;
+}
+.confirmation-section {
+    text-align: center;
+    margin-top: 100px;
+}
+.confirmation-icon {
+    font-size: 4em;
+    color: #fff;
+    animation: scale 0.5s ease-in-out infinite alternate;
+}
+.confirmation-message {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.btn-custom {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    background-color: #343a40;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #495057;
+}
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+footer {
+    background: #121212;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@keyframes slideInDown {
+    from {
+        transform: translateY(-20px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+.navbar-toggler-icon {
+    color: #9d9d9d;
+}
+.navbar-nav .nav-item {
+text-align: center;
+}
+.contact-us:hover{
+    color:#121212;
+    font-weight: bolder;
+
+}

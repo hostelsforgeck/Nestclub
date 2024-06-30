@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Nestclub</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aboutus.css') }}">
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Nestclub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/survey">Properties</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/privacy-policy">Terms&Guidelines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-light contact-us" href="#about">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about-section fade-in">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                        <img src="{{ url_for('static', filename='img/saleem_malik_pv.png') }}" alt="THE FOUNDER & CEO">
+                        <div class="social-links">
+                            <a href="https://api.whatsapp.com/send/?phone=7511169196&text=Hey%20%2C%20I%20need%20you%20to%20talk%20about%20%2ANestclub%2A%21" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/in/saleem-malik-pv" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                        <p style="font-size: 1.2em; margin-bottom: 10px;">SALEEM MALIK PV</p>
+                        <p style="font-size: 1em; margin-bottom: 20px;">Founder & CEO of Nestclub</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <h2>About Nestclub</h2>
+                        <p>Nestclub is a small startup dedicated to connecting hostel seekers with hostel owners, providing a platform that ensures transparency and convenience in finding suitable accommodations. Our mission is to simplify the process of finding and securing hostel stays, ensuring both safety and comfort for our users.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="mission-section fade-in" id="mission">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <h2>Our Mission</h2>
+                        <p>At Nestclub, '<span style="font-weight: bold;color: rgb(254, 140, 136);">We provide nests🌳 for the birds🕊️</span>', we strive to create a seamless experience for hostel seekers and owners alike. Our mission is to facilitate easy access to reliable information, foster trust, and empower individuals to make informed decisions about their living arrangements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<footer class="footer">
+    <p>&copy; 2024 Nestclub. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        const elementsToObserve = document.querySelectorAll('.fade-in');
+        elementsToObserve.forEach(element => {
+            observer.observe(element);
+        });
+    });
+</script>
+
+</body>
+</html>

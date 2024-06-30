@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Filter - Nestclub</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/survey.css') }}">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Nestclub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/survey">Properties</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/privacy-policy">Terms&Guidelines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-light contact-us" href="/contactus">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="survey-form">
+            <h2>Hostel Filter</h2>
+
+
+            <form action="/hostels"  method="post">
+
+
+
+                <div class="form-group">
+                    <label for="hostelType">Type of hostel:</label>
+                    <span class="info-label">
+                        (<a href="{{ url_for('instructions') }}#section1"><i class="fas fa-info-circle"></i></a>)
+                    </span>
+                    <select class="form-control" id="hostelType" name="hostelType">
+                        <option value="MH">Mens hostel</option>
+                        <option value="LH">Ladies hostel</option>
+                        <option value="FULL HOUSE-L">Full house girls</option>
+                        <option value="FULL HOUSE-M">Full house boys</option>
+                        <option value="PG-L">Paying Guest girls</option>
+                        <option value="PG-M">Paying Guest boys</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="distance">Distance:</label>
+                    <select class="form-control" id="distance" name="distance">
+                        <option value="any">Any</option>                        
+                        <option value="100">100m</option>
+                        <option value="200">200m</option>
+                        <option value="300">300m+</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="foodType">Food type:</label>
+                    <select class="form-control" id="foodType" name="foodType">
+                        <option value="1">With food</option>
+                        <option value="0">Without food</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Nestclub. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.navbar-nav .nav-link').on('click', function () {
+                $('.navbar-collapse').collapse('hide');
+            });
+        });
+    </script>
+</body>
+</html>

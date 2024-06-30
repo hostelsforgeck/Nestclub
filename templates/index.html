@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nestclub</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Nestclub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/survey">Properties</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/privacy-policy">Terms&Guidelines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-light contact-us" href="/contactus">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Section 1 with scroll animation -->
+        <div class="row header">
+            <div class="col-md-6 col-sm-12">
+                <h1 class="animated">Discover Your Dream Hostel with Nestclub</h1>
+                <p class="animated">Your journey to finding the perfect hostel begins here. Explore our listings to find the home that matches your dreams.</p>
+                <a href="#section2" class="btn btn-primary animated">Learn More</a>
+                <a href="/survey" class="btn btn-secondary animated">Browse Hostels</a>
+                <div class="stats animated">
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Properties For Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-block col-md-6 col-sm-12 image-container animated">
+                <img src="{{ url_for('static', filename='svg/sapiens-girl-home.svg') }}" alt="Building Image">
+            </div>
+        </div>
+
+        <!-- Section 2 with scroll animation -->
+        <div id="section2" class="row section">
+            <div class="col-md-6 col-sm-12 image-container animated">
+                <img src="{{ url_for('static', filename='svg/sapiens-boy-phone.svg') }}" alt="Message Image">
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h2 class="animated">What We Do</h2>
+                <p class="animated">At Nestclub, we bridge the gap between hostel seekers and hostel owners. Our process is simple and effective:</p>
+                <ul class="animated">
+                    <li><strong>Request Submission:</strong> Submit a request through Nestclub to contact the hostel owner.</li>
+                    <li><strong>Owner Notification:</strong> We provide the hostel owner with your details.</li>
+                    <li><strong>Direct Contact:</strong> The owner reaches out to arrange a meeting.</li>
+                    <li><strong>Make Your Choice:</strong> If you like the hostel, you can move in!</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 3 with scroll animation -->
+        <div class="row section">
+            <div class="col-md-6 col-sm-12">
+                <h2 class="animated">Why Choose Us?</h2>
+                <p class="animated">We are dedicated to making your hostel search seamless and stress-free. Here's why you should choose Hostelites:</p>
+                <ul class="animated">
+                    <li><strong>Easy Process:</strong> Our straightforward process ensures a smooth experience.</li>
+                    <li><strong>Extensive Listings:</strong> A wide range of hostel properties to choose from.</li>
+                    <li><strong>Trusted by Many:</strong> Years of experience and a trusted reputation.</li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-sm-12 image-container animated">
+                <img src="{{ url_for('static', filename='svg/sapiens-boy-message.svg') }}" alt="Message Image">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer animated">
+        <p>&copy; 2024 Nestclub. All rights reserved.</p>
+    </footer>
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Intersection Observer API for scroll animations -->
+    <script>
+        // Initialize Intersection Observer
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.5 // Trigger animation when 50% of element is visible
+        });
+
+        // Target elements with class 'animated' and start observing
+        document.querySelectorAll('.animated').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.navbar-nav .nav-link').on('click', function () {
+                $('.navbar-collapse').collapse('hide');
+            });
+        });
+    </script>
+</body>
+</html>
