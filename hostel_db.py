@@ -2,7 +2,9 @@ hostels = {
     1: {
         "hostel_name": "Test Hostel 1",
         "Preview": {
-            "hostel_image": "https://via.placeholder.com/1200x500/FFA500/000000/?text=Test+Hostel+1",
+            # "hostel_image": "https://via.placeholder.com/1200x500/FFA500/000000/?text=Test+Hostel+1",
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1nc5UvvsnG8erTiM4yJADD9A7dGXbDvtU&sz=w2000',
+            
             "hostel_desc": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
             "card_badges": ["4-Bedroom", "9 beds left", "MH"],
             "hostel_price": "$5000",
@@ -11,8 +13,11 @@ hostels = {
             "hostel_s_address": "Bilathikkulam,Nadakkavu",
             "hostel_price": "$5000",
 
-            "hostel_images": ["https://via.placeholder.com/1200x500/FFA500/000000/?text=Test+Hostel+1",
-                              "https://via.placeholder.com/1200x500"],
+            "hostel_images": [
+                'https://drive.google.com/thumbnail?id=1nc5UvvsnG8erTiM4yJADD9A7dGXbDvtU&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1_Yvu0i5XovS0LTX_uTyXWS8FPKwpM473&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1vFs26bKvCVAyq_o_0P-vYM2kexPW1e2K&sz=w2000',
+                ],
             "hostel_desc": "Discover your own piece of paradise with the Seaside Serenity Villa. With an open floor plan, "
                            "breathtaking ocean views from every room, and direct access to a pristine sandy beach, "
                            "this property is the epitome of coastal living.",
@@ -60,7 +65,9 @@ hostels = {
     2: {
         "hostel_name": "Sunny Beach Hostel",
         "Preview": {
-            "hostel_image": "https://via.placeholder.com/1200x500/00FF00/000000/?text=Sunny+Beach+Hostel",
+            # "hostel_image": "https://via.placeholder.com/1200x500/00FF00/000000/?text=Sunny+Beach+Hostel",
+            "hostel_image": "https://iili.io/dFXM5Mu.jpg",
+
             "hostel_desc": "A cozy hostel steps away from a sandy beach with vibrant nightlife...",
             "card_badges": ["Private rooms", "Ocean view", "FH-M"],
             "hostel_price": "$2500",

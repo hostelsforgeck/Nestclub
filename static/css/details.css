@@ -170,3 +170,17 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 350px; /* Adjust the height as needed for mobile devices */
+        object-fit: cover; /* Ensures the image covers the container */
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-inner img {
+        height: 250px; /* Further adjust the height for smaller devices */
+        object-fit: cover; /* Ensures the image covers the container */
+    }
+}
