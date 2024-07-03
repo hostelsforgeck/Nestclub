@@ -1,11 +1,10 @@
 import os
+import pytz
 from datetime import datetime
 from flask import Flask, render_template, redirect, url_for, request, session
 
 from database import save_user_request
-from hostel_db import fetch_all_preview, fetch_details, find_owner_phone_number,find_hostel_name
-
-
+from hostel_db import fetch_all_preview, fetch_details, find_owner_phone_number, find_hostel_name
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY')  # Change this to a random secret key
@@ -42,6 +41,11 @@ def request_info():
             session['email'] = request.form.get('email')
             session['hostel_id'] = request.form.get('hostel_id')
 
+            # Define the IST timezone
+            ist = pytz.timezone('Asia/Kolkata')
+            # Get the current time in IST
+            now_ist = datetime.now(ist)
+
             user = {
                 "name": session['name'],
                 "semester": session['semester'],
@@ -51,11 +55,11 @@ def request_info():
                 "email": session['email'],
 
                 "hostel_id": session['hostel_id'],
-                "hostel_name" : find_hostel_name(int(session['hostel_id'])),
+                "hostel_name": find_hostel_name(int(session['hostel_id'])),
                 "owner_ph": find_owner_phone_number(int(session['hostel_id'])),
 
-                'requested_date': datetime.now().strftime("%Y-%m-%d"),  # YYYY_MM_DD format for better sorting
-                'requested_time': datetime.now().strftime("%I:%M %p"),
+                "requested_date": now_ist.strftime("%Y-%m-%d"),  # YYYY-MM-DD format for better sorting
+                "requested_time": now_ist.strftime("%I:%M %p"),  # 12-hour format with AM/PM
 
                 "informed_owner": False,
                 "informed_client": False,
@@ -67,6 +71,7 @@ def request_info():
             # 0  -> error :(
             # 1  -> request recorded successfully!
         except Exception as e:
+            print(f"Error occurred: {e}")
             code = 0
     return render_template("success.html", code=code)
 
@@ -81,7 +86,6 @@ def instructions():
 @app.route('/privacy-policy')
 def privacy_policy():
     return redirect(url_for('instructions') + "#section2")
-
 
 @app.route('/services')
 def services():
