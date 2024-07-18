@@ -4,7 +4,7 @@ from datetime import datetime
 from flask import Flask, render_template, redirect, url_for, request, session
 
 from database import save_user_request
-from hostel_db import fetch_all_preview, fetch_details, find_owner_phone_number, find_hostel_name
+from hostel_db_op import fetch_all_preview, fetch_details, find_owner_phone_number, find_hostel_name,check
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY')  # Change this to a random secret key
@@ -20,13 +20,26 @@ def survey():
 @app.route("/hostels", methods=["GET", "POST"])
 def hostels():
     if request.method == "POST":
-        print(request.form)
-    hostels = fetch_all_preview()
-    return render_template("hostels.html", hostels=hostels)
+    #     print(request.form)
+    #     #ImmutableMultiDict([('hostelType', 'MH'), ('distance', 'any'), ('foodType', '1')])
+    #     hostel_type = request.form.get('hostelType')
+    #     distance=request.form.get('distance')
+    #     with_food=request.form.get('foodType')
+
+    #     hostels = check(hostel_type, distance, with_food)
+    #     return render_template("hostels.html", hostels=hostels)
+
+    # else : 
+        hostels = fetch_all_preview()
+        return render_template("hostels.html", hostels=hostels)
 
 @app.route("/hostel-details/<int:id>", methods=["GET", "POST"])
 def details(id):
-    return render_template("details.html", details=fetch_details(id))
+    try:
+        details = fetch_details(id)
+        return render_template("details.html", details=details)
+    except Exception as e:
+        return render_template("success.html", code=0)
 
 @app.route("/client-request", methods=["GET", "POST"])
 def request_info():
