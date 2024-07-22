@@ -47,7 +47,7 @@
             <img src="{{ hostel['Preview']['hostel_image'] }}" class="card-img-top" alt="Seaside Serenity Villa">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">{{ hostel['name'] }}</h5>
-              <p class="card-text">{{  hostel['Preview']['hostel_desc'] }} <a href="#" class="text-info">Read More</a></p>
+              <p class="card-text">{{  hostel['Preview']['hostel_desc'] }} <a href="/hostel-details/{{ key }}" class="text-info">Read More</a></p>
               <p>
                 {% for j in  hostel['Preview']['card_badges'] %}
                 <span class="badge badge-info">{{ j }}</span>

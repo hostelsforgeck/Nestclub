@@ -1,12 +1,12 @@
 hostels = {
     1: {
-        "hostel_name": "Test Hostel 1",
+        "hostel_name": "Chinchus MH",
         "Preview": {
             # "hostel_image": "https://via.placeholder.com/1200x500/FFA500/000000/?text=Test+Hostel+1",
             "hostel_image": 'https://drive.google.com/thumbnail?id=1nc5UvvsnG8erTiM4yJADD9A7dGXbDvtU&sz=w2000',
             
             "hostel_desc": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
-            "card_badges": ["4-Bedroom", "9 beds left", "MH"],
+            "card_badges": ["5-Bedroom", "9 beds left", "MH"],
             "hostel_price": "$5000",
         },
         "details": {
@@ -63,7 +63,7 @@ hostels = {
     },
 
     2: {
-        "hostel_name": "Sunny Beach Hostel",
+        "hostel_name": "Chinchus LH",
         "Preview": {
             # "hostel_image": "https://via.placeholder.com/1200x500/00FF00/000000/?text=Sunny+Beach+Hostel",
             "hostel_image": "https://iili.io/dFXM5Mu.jpg",
@@ -122,7 +122,7 @@ hostels = {
     },
 
     3: {
-        "hostel_name": "Mountain View Lodge",
+        "hostel_name": "Chinchus PG",
         "Preview": {
             "hostel_image": "https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Mountain+View+Lodge",
             "hostel_desc": "A charming lodge nestled in the mountains, perfect for hiking and relaxation...",
@@ -179,56 +179,56 @@ hostels = {
     },
 
     4: {
-        "hostel_name": "Urban Oasis Hostel",
+        "hostel_name": "Olive Hostel 1",
         "Preview": {
-            "hostel_image": "https://via.placeholder.com/1200x500/990099/FFFFFF/?text=Urban+Oasis+Hostel",
-            "hostel_desc": "A vibrant hostel in the heart of the city with modern amenities...",
-            "card_badges": ["City center", "Shared rooms", "PG-M"],
-            "hostel_price": "$1200",
+            "hostel_image": "https://via.placeholder.com/1200x500/990099/FFFFFF/?text=Olive+Hostel+1",
+            "hostel_desc": "Olive Hostel is a highly regarded ladies' hostel conveniently located near...",
+
+            "card_badges": ["Wifi", "Shared rooms", "LH"],
+            "hostel_price": "₹5200",
         },
         "details": {
-            "hostel_s_address": "Downtown Boulevard, Metropolis",
-            "hostel_price": "$1200",
+            "hostel_s_address": "Near Engineering College, Westhill",
+            "hostel_price": "₹5200",
 
-            "hostel_images": ["https://via.placeholder.com/1200x500/990099/FFFFFF/?text=Urban+Oasis+Hostel",
+            "hostel_images": ["https://via.placeholder.com/1200x500/990099/FFFFFF/?text=Olive+Hostel+1",
                               "https://via.placeholder.com/1200x500"],
-            "hostel_desc": "Discover the excitement of city life at Urban Oasis Hostel. Located in the bustling "
-                           "downtown area, this hostel offers modern accommodations and easy access to cultural "
-                           "attractions, shopping, and nightlife.",
+            "hostel_desc": "Olive Hostel is a highly regarded ladies' hostel conveniently located near the engineering college. Renowned for its comfortable and secure environment, Olive Hostel offers an array of amenities designed to make student life easier and more enjoyable. Residents at Olive Hostel benefit from modern facilities, including a fully equipped kitchen with gas facilities, allowing students to prepare their meals with ease. Additionally, the hostel provides complimentary high-speed Wi-Fi, ensuring that students can stay connected for their academic and personal needs",
 
-            "near_college": ["Metropolis University", "Downtown College"],
+            "near_college": ["GECK","POLY"],
 
             "hostel_amenities": [
-                "WIFI,FOOD",
-                "Cozy shared rooms with individual lockers",
-                "Community kitchen for guest use",
-                "Roof terrace with city skyline views",
-                "Walking distance to theaters and museums",
+                "Free WiFi",
+                "Fully-equipped kitchen with gas stove",
+                "Filtered water for drinking",
             ],
 
-            "hostel_fees": [("City Tax", "Per night per guest", "$30"),
-                            ("Key Deposit", "Refundable upon check-out", "$50")
+            "hostel_fees": [("Advance Payment", "A reasonable advance payment required before moving in", "₹3000"),
+                            ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5200"),
+                            ("Current Bill", "Shared in a 2:1 ratio, with 2 parts paid by the hostelites and 1 part by the owner","₹XXX"),
+                            ("Gas Cylinder","Cost is shared among the hostelites","₹XXX"),
+                            ("Wifi", "Included in the rent","Free"),
                             ],
 
-            "rating": 4.3,
+            "rating": 0.0,
             "reviews": [("cityexplorer", "Great location and friendly staff!"), ("culturelover", "Convenient and clean accommodations.")]
 
         },
         "more_details": {
-            "hostel_l_address": "Urban Oasis Hostel",
+            "hostel_l_address": "",
 
             "owner": {
-                "owner_name": "Emily White",
-                "owner_ph": ["9876543214", "9876543215"],
-                "owner_wp": "9876543210",
-                "owner_Address": "789 Downtown Boulevard, Metropolis",
+                "owner_name": "",
+                "owner_ph": ["7356481916", "7356481916"],
+                "owner_wp": "7356481916",
+                "owner_Address": "",
             },
 
             "hostel_gmap": "https://maps.google.com/urbanoasishostel",
             "total_slots": 20,
         },
         "survey": {
-            "type": "PG-M",
+            "type": "LH",
             "with_food": 1,
             "distance_below": 20,
             "wifi": 1,
@@ -236,64 +236,62 @@ hostels = {
     },
 
     5: {
-        "hostel_name": "Tranquil Valley Retreat",
+        "hostel_name": "Royal Gents Hostel",
         "Preview": {
-            "hostel_image": "https://via.placeholder.com/1200x500/CC6600/FFFFFF/?text=Tranquil+Valley+Retreat",
-            "hostel_desc": "An idyllic retreat in a peaceful valley surrounded by lush greenery...",
-            "card_badges": ["Nature getaway", "Private cabins", "PG-L"],
-            "hostel_price": "$3000",
+            "hostel_image": "https://via.placeholder.com/1200x500/CC6600/FFFFFF/?text=Royal+Gents+Hostel",
+            "hostel_desc": "This hostel features 12 rooms, each with an attached bathroom...",
+            "card_badges": ["12 Rooms", "32 spots left", "MH"],
+            "hostel_price": "₹5500",
         },
         "details": {
-            "hostel_s_address": "Green Valley Road, Serenity Hills",
-            "hostel_price": "$3000",
+            "hostel_s_address": "Near Engineering College, Westhill",
+            "hostel_price": "₹5500",
 
-            "hostel_images": ["https://via.placeholder.com/1200x500/CC6600/FFFFFF/?text=Tranquil+Valley+Retreat",
+            "hostel_images": ["https://via.placeholder.com/1200x500/CC6600/FFFFFF/?text=Royal+Gents+Hostel",
                               "https://via.placeholder.com/1200x500"],
-            "hostel_desc": "Escape the hustle and bustle at Tranquil Valley Retreat. Nestled in a serene valley, "
-                           "this retreat offers private cabins, nature trails, and a peaceful environment for "
-                           "relaxation and rejuvenation.",
+            "hostel_desc": "We are pleased to introduce our new accommodation option near the engineering college. This hostel features 12 rooms, each with an attached bathroom, ensuring comfort and privacy for all guests. The friendly hostel owner is dedicated to making your stay pleasant, and the homely food provided will make you feel right at home.",
 
-            "near_college": ["Serenity Hills College", "Green Valley University"],
+            "near_college": ["GECK","POLY"],
 
             "hostel_amenities": [
-                "WIFI,FOOD",
-                "Private cabins with forest views",
-                "Yoga and meditation sessions",
-                "Organic farm-to-table dining",
-                "Outdoor activities like bird watching and star gazing",
+            "Home-cooked Meals",
+            "Television facility for relaxation",
+            "Complimentary Wi-Fi for all guests",
+            "Entertainment options including a carrom board",
             ],
 
-            "hostel_fees": [("Nature Conservation Fee", "Per stay", "$100"),
-                            ("Spa Service Fee", "Optional", "$50")
-                            ],
+            "hostel_fees": [
+                ("Advance Payment", "An affordable advance payment required before moving in", "₹2000"),
+                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5500"),
+                ],
 
-            "rating": 4.7,
+            "rating": 0.0,
             "reviews": [("retreatlover", "Perfect place to unwind!"), ("naturefanatic", "Beautiful location and excellent hospitality.")]
 
         },
         "more_details": {
-            "hostel_l_address": "Tranquil Valley Retreat",
+            "hostel_l_address": "",
 
             "owner": {
-                "owner_name": "Sarah Green",
-                "owner_ph": ["9876543216", "9876543217"],
-                "owner_wp": "9876543210",
-                "owner_Address": "101 Green Valley Road, Serenity Hills",
+                "owner_name": "Sibin",
+                "owner_ph": ["8714155998",],
+                "owner_wp": "8714155998",
+                "owner_Address": "",
             },
 
             "hostel_gmap": "https://maps.google.com/tranquilvalleyretreat",
-            "total_slots": 8,
+            "total_slots": 42,
         },
         "survey": {
-            "type": "PG-L",
+            "type": "MH",
             "with_food": 1,
-            "distance_below": 300,
+            "distance_below": 250,
             "wifi": 1,
         }
     },
 
     6: {
-        "hostel_name": "Cozy Cottage Hostel",
+        "hostel_name": "Surya Hostel",
         "Preview": {
             "hostel_image": "https://via.placeholder.com/1200x500/663399/FFFFFF/?text=Cozy+Cottage+Hostel",
             "hostel_desc": "A quaint cottage hostel offering a peaceful countryside experience...",
