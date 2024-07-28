@@ -67,10 +67,12 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-
+            
             <div class="description fade-in">
                 <h4>Description</h4>
-                <p>{{ details.hostel_desc }}</p>
+                {% for paragraph in details.hostel_desc %}
+                    <p>{{ paragraph }}</p>
+                {% endfor %}
             </div>
             
             <div class="features fade-in">

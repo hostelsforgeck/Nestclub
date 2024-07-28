@@ -15,7 +15,9 @@ def index():
 
 @app.route("/survey")
 def survey():
-    return render_template("survey.html")
+    # return render_template("survey.html")
+    hostels = fetch_all_preview()
+    return render_template("hostels.html", hostels=hostels)
 
 @app.route("/hostels", methods=["GET", "POST"])
 def hostels():
