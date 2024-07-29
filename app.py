@@ -30,8 +30,9 @@ def hostels():
 
     #     hostels = check(hostel_type, distance, with_food)
     #     return render_template("hostels.html", hostels=hostels)
+        pass
 
-    # else : 
+    else : 
         hostels = fetch_all_preview()
         return render_template("hostels.html", hostels=hostels)
 
