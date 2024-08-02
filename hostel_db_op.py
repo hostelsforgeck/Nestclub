@@ -1,5 +1,7 @@
 from hostel_db import hostels
 
+SHUFFLE_PREVIEW = False
+
 # ImmutableMultiDict([('hostelType', 'PG-M'), ('distance', '100'), ('foodType', '0')])
 def check(hostel_type,distance,with_food):
     # if hostel_type == "any" or distance == "any":
@@ -47,10 +49,23 @@ def fetch_all_preview():
         hostel_preview_dict[i]["name"] = hostels[i]["hostel_name"]
         hostel_preview_dict[i]["Preview"] = hostels[i]["Preview"]
 
-    # print(json.dumps(hostel_preview_dict,indent=2))
-    return hostel_preview_dict
-# print(fetch_all_preview())
 
+    if SHUFFLE_PREVIEW:
+
+        import random
+
+        items = list(hostel_preview_dict.items())
+        random.shuffle(items)
+        shuffled_dict = dict(items)
+
+        return shuffled_dict
+
+    else:
+        
+        # print(json.dumps(hostel_preview_dict,indent=2))
+        return hostel_preview_dict
+    # print(fetch_all_preview())
+      
 
 def fetch_details(id):
 

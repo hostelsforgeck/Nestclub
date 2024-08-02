@@ -58,7 +58,7 @@ hostels = {
             "owner": {
                 "owner_name": "Philomina",
                 "owner_ph": ["9495258968", "9495258968"],
-                "owner_wp": "9495258968",
+                "owner_wp": "919495258968",
                 "owner_Address": "",
             },
 
@@ -128,7 +128,7 @@ hostels = {
             "owner": {
                 "owner_name": "Philomina",
                 "owner_ph": ["9495258968", "9495258968"],
-                "owner_wp": "9495258968",
+                "owner_wp": "919495258968",
                 "owner_Address": "",
             },
 
@@ -202,7 +202,7 @@ hostels = {
             "owner": {
                 "owner_name": "Philomina",
                 "owner_ph": ["9495258968", "9495258968"],
-                "owner_wp": "9495258968",
+                "owner_wp": "919495258968",
                 "owner_Address": "",
             },
 
@@ -276,7 +276,7 @@ hostels = {
             "owner": {
                 "owner_name": "Philomina",
                 "owner_ph": ["9495258968", "9495258968"],
-                "owner_wp": "9495258968",
+                "owner_wp": "919495258968",
                 "owner_Address": "",
             },
 
@@ -348,7 +348,7 @@ hostels = {
             "owner": {
                 "owner_name": "",
                 "owner_ph": ["7356481916", "7356481916"],
-                "owner_wp": "7356481916",
+                "owner_wp": "917356481916",
                 "owner_Address": "",
             },
 
@@ -416,7 +416,7 @@ hostels = {
             "owner": {
                 "owner_name": "Sibin",
                 "owner_ph": ["8714155998", ],
-                "owner_wp": "8714155998",
+                "owner_wp": "918714155998",
                 "owner_Address": "Behind Engineering College",
             },
 
@@ -494,7 +494,7 @@ hostels = {
             "owner": {
                 "owner_name": "Dilesh",
                 "owner_ph": ["9995551686"],
-                "owner_wp": "9995551686",
+                "owner_wp": "919995551686",
                 "owner_Address": "Westhill",
             },
 
@@ -567,7 +567,7 @@ hostels = {
             "owner": {
                 "owner_name": "Dilesh",
                 "owner_ph": ["9995551686"],
-                "owner_wp": "9995551686",
+                "owner_wp": "919995551686",
                 "owner_Address": "Westhill",
             },
 
@@ -640,7 +640,7 @@ hostels = {
             "owner": {
                 "owner_name": "",
                 "owner_ph": ["9633589582", ],
-                "owner_wp": "9633589582",
+                "owner_wp": "919633589582",
                 "owner_Address": "",
             },
 
@@ -713,7 +713,7 @@ hostels = {
             "owner": {
                 "owner_name": "",
                 "owner_ph": ["9633589582", ],
-                "owner_wp": "9633589582",
+                "owner_wp": "919633589582",
                 "owner_Address": "",
             },
 
@@ -784,7 +784,7 @@ hostels = {
             "owner": {
                 "owner_name": "Sivadas",
                 "owner_ph": ["9895657453"],
-                "owner_wp": "9895657453",
+                "owner_wp": "919895657453",
                 "owner_Address": "",
             },
 
@@ -843,7 +843,7 @@ hostels = {
             "owner": {
                 "owner_name": "Sivadas",
                 "owner_ph": ["9895657453"],
-                "owner_wp": "9895657453",
+                "owner_wp": "919895657453",
                 "owner_Address": "",
             },
 
@@ -863,7 +863,7 @@ hostels = {
         "Preview": {
             "hostel_image": 'https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Manjus+PG',
 
-            "hostel_desc": "Chinchus Men's Hostel is an excellent accommodation option located...",
+            "hostel_desc": "Manjus PG is an excellent paying guest accommodation tailored specifically...",
             "card_badges": ["PG-Ladies", "2 Rooms"],
             "hostel_price": "₹5700",
         },
@@ -906,7 +906,7 @@ hostels = {
             "owner": {
                 "owner_name": "Manju",
                 "owner_ph": ["8921948475", ],
-                "owner_wp": "8921948475",
+                "owner_wp": "918921948475",
                 "owner_Address": "",
             },
 
@@ -983,7 +983,7 @@ hostels = {
             "owner": {
                 "owner_name": "Philomina",
                 "owner_ph": ["9495258968", "9495258968"],
-                "owner_wp": "9495258968",
+                "owner_wp": "919495258968",
                 "owner_Address": "",
             },
 
@@ -1055,7 +1055,7 @@ hostels = {
     #         "owner": {
     #             "owner_name": "Philomina",
     #             "owner_ph": ["9495258968", "9495258968"],
-    #             "owner_wp": "9495258968",
+    #             "owner_wp": "919495258968",
     #             "owner_Address": "",
     #         },
 
