@@ -72,7 +72,16 @@ def find_hostel_name(id):
     name = hostels[id]["hostel_name"]
     return name if name else "nil"
 
+def find_hostel_gmap(id):
+    
+    coordinates = hostels[id]["more_details"]["hostel_gmap"] #[lat,long,markerloc-base64encoded]
+    
+    if len(coordinates) == 3:
+        return coordinates
+    else:
+        return False
 
+# print(find_hostel_gmap(2))
 # print(find_hostel_name(1))
 # print(json.dumps(fetch_details(2),indent=2))
 # print(find_owner_phone_number(2))

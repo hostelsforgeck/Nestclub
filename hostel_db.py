@@ -1,3 +1,4 @@
+
 hostels = {
     1: {
         "hostel_name": "Chinchus MH 1",
@@ -5,7 +6,7 @@ hostels = {
             "hostel_image": 'https://drive.google.com/thumbnail?id=1VyYY6o2GNDROsHvsEGEah1OdnnayTwFn&sz=w2000',
 
             "hostel_desc": "Chinchus Men's Hostel is an excellent accommodation option located...",
-            "card_badges": ["5-Bedroom", "9 beds left", "MH"],
+            "card_badges": ["Men's Hostel", "5-Bedroom", "Wifi"],
             "hostel_price": "₹5500",
         },
         "details": {
@@ -53,7 +54,7 @@ hostels = {
 
         },
         "more_details": {
-            "hostel_l_address": "Chinju's Hostel, Near Bilathikkuam",
+            "hostel_l_address": "Chinchus Mens Hostel, Near Engineering College, Near Bilathikkuam, Westhill",
 
             "owner": {
                 "owner_name": "Philomina",
@@ -62,11 +63,9 @@ hostels = {
                 "owner_Address": "",
             },
 
-            "hostel_gmap": {
-                "latitude": "",
-                "longitude": "",
-            },
+            "hostel_gmap": ['11.283051', '75.774673', 'MTEuMjgzMDUxLDc1Ljc3NDY3Mw=='],
             "total_slots": 25,
+            
         },
         "survey": {
             "type": "MH",
@@ -79,10 +78,10 @@ hostels = {
     2: {
         "hostel_name": "Chinchus LH",
         "Preview": {
-            "hostel_image": "https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Chinchus+LH",
+            "hostel_image": "https://drive.google.com/thumbnail?id=178PKY1ZXs-liF09SkpsHblwq77ELACRZ&sz=w2000",
 
             "hostel_desc": "Chinchus Ladies Hostel is an excellent accommodation option for women...",
-            "card_badges": ["Wifi","Shared rooms","LH"],
+            "card_badges": ["Ladies Hostel","Wifi",],
             "hostel_price": "₹5000",
         },
         "details": {
@@ -90,9 +89,12 @@ hostels = {
             "hostel_price": "₹5000",
 
             "hostel_images": [
-                "https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Chinchus+LH",
-                "https://via.placeholder.com/1200x500"
-            ],
+                'https://drive.google.com/thumbnail?id=1d2UOxjU3v-krwG0w5f6hGi8kQjkFYKf9&sz=w2000',
+                'https://drive.google.com/thumbnail?id=12Opf3EI2MUotfKpEQWO3QGvLLxESEhSx&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1Lm-Sr2TnyW_4frHolIZVRduhwMO3HEF3&sz=w2000',
+                'https://drive.google.com/thumbnail?id=19AVnMkuND0YpqvcbXm1WWX9ozHyHYsKN&sz=w2000',
+                'https://drive.google.com/thumbnail?id=178PKY1ZXs-liF09SkpsHblwq77ELACRZ&sz=w2000',
+                ],
 
             "hostel_desc": [
                 "Chinchus Ladies Hostel is an excellent accommodation option for women located near the engineering college in Kozhikode. This hostel boasts neat and clean rooms, each with an attached bathroom, ensuring privacy and comfort for all residents. The owner is friendly and attentive, and a dedicated lady warden is available to ensure the safety and well-being of the guests.",
@@ -131,10 +133,7 @@ hostels = {
                 "owner_Address": "",
             },
 
-            "hostel_gmap": {
-                "latitude": "",
-                "longitude": "",
-            },
+            "hostel_gmap": ['11.286715', '75.773989', 'MTEuMjg2NzE1LDc1Ljc3Mzk4OQ=='],
             "total_slots": 15,
         },
         "survey": {
@@ -148,9 +147,10 @@ hostels = {
     3: {
         "hostel_name": "Chinchus PG",
         "Preview": {
-            "hostel_image": "https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Chinchus+PG",
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1YkBAMbaSke8ZsK38tYVqxyEdsXgscNXp&sz=w2000',
+
             "hostel_desc": "This is an excellent paying guest accommodation option for ladies...",
-            "card_badges": ["Wifi","Shared rooms","PG-L"],
+            "card_badges": ["PG-Ladies", "Wifi",],
             "hostel_price": "₹5000",
         },
         "details": {
@@ -158,8 +158,20 @@ hostels = {
             "hostel_price": "₹5000",
 
             "hostel_images": [
-                "https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Chinchus+PG",
-                              "https://via.placeholder.com/1200x500"],
+                'https://drive.google.com/thumbnail?id=1tfTobK7A43yZc-20Y7IzGKbC9Pp8OW69&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1YkBAMbaSke8ZsK38tYVqxyEdsXgscNXp&sz=w2000',
+
+                'https://drive.google.com/thumbnail?id=1R1vtAv34tLotdFVgba5YMtaWQMRD2-_f&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1W_DLqX_IkyCEa_lK0K98vtvl8a38Ay8r&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1dOxY_W6VcndLWWft7jVX5Gc5GkiKAD0B&sz=w2000',
+                
+                'https://drive.google.com/thumbnail?id=10RfwSFzUJVpKgw1lKOS2qRUi_uV_oNJi&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1MOWI5Hs7YYdosBjKQhk5XUsrnzBwBY4s&sz=w2000',
+                'https://drive.google.com/thumbnail?id=10j6cmx19fMSB6neApk6dCQSDceOfpWSW&sz=w2000',
+                'https://drive.google.com/thumbnail?id=15q9Y32uXfSrDsO-FY6-SJBuJ71dbHwu9&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1PfSRg3BrPxF--ps7BOxXtAzM83IFl3tG&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1kJNjsA2yVzqZ0FqoV2ESMsM8kmaxmvDG&sz=w2000',
+                ],
 
             "hostel_desc": [
                 "Chinchus PG is an excellent paying guest accommodation option for ladies located near the engineering college in Kozhikode. This hostel offers neat and clean rooms, each with an attached bathroom, ensuring a comfortable and private living experience. The owner, who resides downstairs, is known for being friendly and accommodating, contributing to the excellent living atmosphere.",
@@ -181,6 +193,8 @@ hostels = {
             "hostel_fees": [
                 ("Advance Payment", "A reasonable advance payment required before moving in", "₹2000"),
                 ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5000"),
+                ("Current Bill","shared among the hostelites","₹XXX"),
+
             ],
 
             "rating": 0.0,
@@ -197,10 +211,7 @@ hostels = {
                 "owner_Address": "",
             },
 
-            "hostel_gmap": {
-                "latitude": "",
-                "longitude": "",
-            },
+            "hostel_gmap": [],
             "total_slots": 12,
         },
         "survey": {
@@ -217,7 +228,7 @@ hostels = {
             "hostel_image": 'https://drive.google.com/thumbnail?id=13rq6klCKW8-owgkbnCxS1rozWNRYjDTV&sz=w2000',
             "hostel_desc": "This hostel, situated in Chungam, Kozhikode, offers a spacious and well-equipped...",
 
-            "card_badges": ["Wifi", "Shared rooms", "LH"],
+            "card_badges": ["Men's Hostel", "Spacious",],
             "hostel_price": "₹5500",
         },
         "details": {
@@ -256,7 +267,7 @@ hostels = {
 
             "hostel_fees": [("Advance Payment", "A reasonable advance payment required before moving in", "₹2000"),
                             ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5500"),
-
+                            ("Current Bill","shared among the hostelites","₹XXX"),
                             ],
 
             "rating": 0.0,
@@ -273,11 +284,7 @@ hostels = {
                 "owner_Address": "",
             },
 
-            "hostel_gmap": {
-                "latitude": "11.282839",
-                "longitude": "75.774621",
-                "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.897875744028!2d{ 'hostel_gmap'[longitude] }!3d{ 'hostel_gmap'[latitude] }!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTEuMjgyODM5LCA3NS43NzQ2MjE!5e0!3m2!1sen!2sus!4v1642869952544!5m2!1sen!2sus"
-            },
+            "hostel_gmap": [],
             "total_slots": 20,
         },
         "survey": {
@@ -294,7 +301,7 @@ hostels = {
             "hostel_image": 'https://drive.google.com/thumbnail?id=1n78hKHyS4z9582a6WqzscEggG3Z9cIY1&sz=w2000',
             "hostel_desc": "Olive Hostel is a highly regarded ladies' hostel conveniently located near...",
 
-            "card_badges": ["Wifi", "Shared rooms", "LH"],
+            "card_badges": ["Ladies Hostel", "Wifi","Kitchen" ],
             "hostel_price": "₹5200",
         },
         "details": {
@@ -347,7 +354,7 @@ hostels = {
                 "owner_Address": "",
             },
 
-            "hostel_gmap": "https://maps.google.com/urbanoasishostel",
+            "hostel_gmap": [],
             "total_slots": 20,
         },
         "survey": {
@@ -363,7 +370,7 @@ hostels = {
         "Preview": {
             "hostel_image": 'https://drive.google.com/thumbnail?id=1jKhw7rIpqC2KtdMo42BfiEf6GQXUBgSN&sz=w2000',
             "hostel_desc": "This hostel features 12 rooms, each with an attached bathroom...",
-            "card_badges": ["12 Rooms", "32 spots left", "MH"],
+            "card_badges": ["Men's Hostel", "12 Rooms","Wifi", ],
             "hostel_price": "₹5500",
         },
         "details": {
@@ -415,7 +422,7 @@ hostels = {
                 "owner_Address": "Behind Engineering College",
             },
 
-            "hostel_gmap": "",
+            "hostel_gmap": ['11.286976', '75.770140', 'MTEuMjg2OTc2LDc1Ljc3MDE0MA=='],
             "total_slots": 42,
         },
         "survey": {
@@ -432,7 +439,7 @@ hostels = {
             "hostel_image": 'https://drive.google.com/thumbnail?id=1JUorVQqS8LOi5Oeycvymun5H2k-Ywu1G&sz=w2000',
 
             "hostel_desc": "The hostel is designed as two flat-like homes, providing a comfortable and spacious...",
-            "card_badges": ["Shared rooms","MH"],
+            "card_badges": ["Men's Hostel", "Study Area","Wifi"],
             "hostel_price": "₹5500",
         },
         "details": {
@@ -465,8 +472,12 @@ hostels = {
             "near_college": ["GECK", "POLY"],
 
             "hostel_amenities": [
+                "Wifi",
+                "Study area",
                 "Cleaning staffs",
                 "Bike parking area",
+                "Cloth washing area",
+                "Attached bathrooms",
                 "Homely, nutritious meals",
 
             ],
@@ -474,8 +485,6 @@ hostels = {
             "hostel_fees": [
                 ("Advance Payment", "A reasonable advance payment required before moving in", "₹2000"),
                 ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5500"),
-                ("Current Bill","shared among the hostelites","₹XXX"),
-
             ],
 
             "rating": 0.0,
@@ -492,10 +501,7 @@ hostels = {
                 "owner_Address": "Westhill",
             },
 
-            "hostel_gmap": {
-                "latitude": "",
-                "longitude": "",
-            },
+            "hostel_gmap": ['11.283971', '75.767562', 'MTEuMjgzOTcxLDc1Ljc2NzU2Mg=='],
             "total_slots": 14,
         },
         "survey": {
@@ -511,7 +517,7 @@ hostels = {
         "Preview": {
             "hostel_image": 'https://drive.google.com/thumbnail?id=1MCTaWo3hzP3L9bDPZACMhdNjwHpBkCGL&sz=w2000',
             "hostel_desc": "This hostel includes a common study hall and a spacious dining area, perfect for...",
-            "card_badges": ["Shared rooms", "LH"],
+            "card_badges": ["Ladies Hostel", "Clean"],
             "hostel_price": "₹5000",
         },
         "details": {
@@ -542,7 +548,7 @@ hostels = {
 
             ],
 
-            "near_college": ["Willow Creek College", "Meadowside University"],
+            "near_college": ["GECK","POLY"],
 
             "hostel_amenities": [
                 "Support staffs",
@@ -570,10 +576,7 @@ hostels = {
                 "owner_Address": "Westhill",
             },
 
-            "hostel_gmap": {
-                "latitude": "",
-                "longitude": "",
-            },
+            "hostel_gmap": [],
             "total_slots": 14,
         },
         "survey": {
@@ -589,7 +592,7 @@ hostels = {
         "Preview": {
             "hostel_image": 'https://drive.google.com/thumbnail?id=1tS7QRz_9b0IoQuBIRpUWDHdSugzDppjW&sz=w2000',
             "hostel_desc": "The hostel features air-conditioned rooms, providing a cool and comfortable...",
-            "card_badges": ["Shared rooms","MH"],
+            "card_badges": ["Men's Hostel", "Wifi"],
             "hostel_price": "₹5500",
         },
         "details": {
@@ -618,13 +621,14 @@ hostels = {
             "hostel_amenities": [
                 "Wifi connectivity",
                 "Air conditioner",
+                "Washing Machine"
+                
             ],
 
             "hostel_fees": [
                 ("Advance Payment", "A reasonable advance payment required before moving in", "₹2000"),
-                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5500"),
-                ("Current Bill","shared among the hostelites","₹XXX"),
-
+                ("Monthly Rent", "The monthly rent, which includes breakfast and dinner, is to be paid at the beginning of each month.", "₹5500"),
+                ("Monthly Rent", "The monthly rent, which does not include any meals, is to be paid at the beginning of each month.", "₹3500"),
             ],
 
             "rating": 0.0,
@@ -641,10 +645,7 @@ hostels = {
                 "owner_Address": "",
             },
 
-            "hostel_gmap": {
-                "latitude": "",
-                "longitude": "",
-            },
+            "hostel_gmap": ['11.281472', '75.771147', 'MTEuMjgxNDcyLDc1Ljc3MTE0Nw=='],
             "total_slots": 14,
         },
         "survey": {
@@ -660,7 +661,7 @@ hostels = {
         "Preview": {
             "hostel_image": 'https://drive.google.com/thumbnail?id=10bp8zH0e7K-gN9G_4z6OCM1GKvcQcA32&sz=w2000',
             "hostel_desc": "This hostel offers a pleasant and comfortable place to stay....",
-            "card_badges": ["Shared rooms","MH"],
+            "card_badges": ["Men's Hostel","Wifi"],
             "hostel_price": "₹5500",
         },
         "details": {
@@ -689,14 +690,15 @@ hostels = {
 
             "hostel_amenities": [
                 "Wifi connectivity",
+                "Washing Machine",
+                "Study area",
                 
             ],
 
             "hostel_fees": [
                 ("Advance Payment", "A reasonable advance payment required before moving in", "₹2000"),
-                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5500"),
-                ("Current Bill","shared among the hostelites","₹XXX"),
-
+                ("Monthly Rent", "The monthly rent, which includes breakfast and dinner, is to be paid at the beginning of each month.", "₹5500"),
+                ("Monthly Rent", "The monthly rent, which does not include any meals, is to be paid at the beginning of each month.", "₹3500"),
             ],
 
             "rating": 0.0,
@@ -713,10 +715,7 @@ hostels = {
                 "owner_Address": "",
             },
 
-            "hostel_gmap": {
-                "latitude": "",
-                "longitude": "",
-            },
+            "hostel_gmap": [],
             "total_slots": 14,
         },
         "survey": {
@@ -730,18 +729,28 @@ hostels = {
     11: {
         "hostel_name": "Neha MH",
         "Preview": {
-            "hostel_image": 'https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Neha+Mens+Hostel',
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1Oztc7R-gPvzl8VMLLJlKBp-tncVhQsCO&sz=w2000',
 
             "hostel_desc": "Neha Men's Hostel offers exceptional accommodation conveniently located...",
-            "card_badges": ["Shared rooms", "MH"],
+            "card_badges": ["Men's Hostel","Shared rooms"],
             "hostel_price": "₹5500",
         },
         "details": {
             "hostel_s_address": "Bilathikkulam,Nadakkavu",
             "hostel_price": "₹5500",
 
-            "hostel_images": ["https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Sunny+Beach+Hostel",
-                              "https://via.placeholder.com/1200x500"],
+            "hostel_images": [
+                'https://drive.google.com/thumbnail?id=14M2PLyaNIV_h0HWAwhoxJq_-k7poihVJ&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1_j5O5gkbVtAUiWb8p4oRnienaODiwC6V&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1HCYC8-Rg1HX_4AKZ0slGcNELw7jyndR8&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1o7B0h-rQX-9Kb5rpSmvqtyqGuCWHpmJS&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1VZe-_1r2ceZFXJ0objeMlfINdOMW18vf&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1Pp2xBTcVDW9AAO9Eh39QO1eoLYU9m_9U&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1TSUR3Ib1-7YM0JA_DQuiC8zGaCfJOO_e&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1X289qO0kummyHxulHwH4Qa55VsG5mmKX&sz=w2000',
+
+                'https://drive.google.com/thumbnail?id=1Oztc7R-gPvzl8VMLLJlKBp-tncVhQsCO&sz=w2000',
+                ],
 
             "hostel_desc": [
             "Neha Men's Hostel offers exceptional accommodation conveniently located near the engineering college in Westhill. The hostel is run by a warm and welcoming owner, ensuring a comfortable and pleasant stay for all residents. Guests can savor delicious, home-cooked meals prepared with care.",
@@ -752,15 +761,14 @@ hostels = {
 
             "hostel_amenities": [
                 "Free WiFi",
+                
                 "bike parking area",
                 "Homely, nutritious meals",
-                "Carrom board for entertainment",
-                "Aqua-guard purified drinking water",
-                "Mosquito nets on windows in all rooms",
+
             ],
 
             "hostel_fees": [
-                ("Advance Payment", "A reasonable advance payment required before moving in", "₹2000"),
+                ("Advance Payment", "A reasonable advance payment required before moving in", "₹4000"),
                 ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5500"),
                 ("Current Bill","shared among the hostelites","₹XXX"),
 
@@ -780,11 +788,307 @@ hostels = {
                 "owner_Address": "",
             },
 
-            "hostel_gmap": {
-                "latitude": "",
-                "longitude": "",
-            },
+            "hostel_gmap": [],
             "total_slots": 25,
+        },
+        "survey": {
+            "type": "MH",
+            "with_food": 1,
+            "distance_below": 100,
+            "wifi": 1,
+        }
+    },
+
+    12: {
+        "hostel_name": "Neha LH",
+        "Preview": {
+            "hostel_image": 'https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Neha+LH',
+
+            "hostel_desc": "Neha Men's Hostel offers exceptional accommodation conveniently located...",
+            "card_badges": ["Ladies Hostel","Shared rooms"],
+            "hostel_price": "₹5000",
+        },
+        "details": {
+            "hostel_s_address": "Bilathikkulam,Nadakkavu",
+            "hostel_price": "₹5000",
+
+            "hostel_images": [
+                'https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Neha+LH',
+                ],
+
+            "hostel_desc": [
+            "Neha Men's Hostel offers exceptional accommodation conveniently located near the engineering college in Westhill. The hostel is run by a warm and welcoming owner, ensuring a comfortable and pleasant stay for all residents. Guests can savor delicious, home-cooked meals prepared with care.",
+            "The hostel comprises five rooms, three of which have attached bathrooms for added convenience, while the other two rooms share two external bathrooms. Additionally, there is a rooftop area with facilities for drying clothes in the sunlight and an open study area, providing a comfortable space for studying.",
+            ],
+
+            "near_college": ["GECK", "POLY"],
+
+            "hostel_amenities": [
+                "WiFi",
+                "Cloth washing area",
+                "Homely, nutritious meals",
+            ],
+
+            "hostel_fees": [
+                ("Advance Payment", "A reasonable advance payment required before moving in", "₹4000"),
+                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5000"),
+                ("Current Bill","shared among the hostelites","₹XXX"),
+
+            ],
+
+            "rating": 0.0,
+            "reviews": [("name", "review1"), ("name2", "review2")]
+
+        },
+        "more_details": {
+            "hostel_l_address": "Neha Hostel",
+
+            "owner": {
+                "owner_name": "Sivadas",
+                "owner_ph": ["9895657453"],
+                "owner_wp":"9895657453",
+                "owner_Address": "",
+            },
+
+            "hostel_gmap": [],
+            "total_slots": 25,
+        },
+        "survey": {
+            "type": "MH",
+            "with_food": 1,
+            "distance_below": 100,
+            "wifi": 1,
+        }
+    },
+
+    13: {
+        "hostel_name": "Manjus PG",
+        "Preview": {
+            "hostel_image": 'https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Manjus+PG',
+
+            "hostel_desc": "Chinchus Men's Hostel is an excellent accommodation option located...",
+            "card_badges": ["PG-Ladies","2 Rooms"],
+            "hostel_price": "₹5500",
+        },
+        "details": {
+            "hostel_s_address": "Near Engineering College, Westhill",
+            "hostel_price": "₹5500",
+
+            "hostel_images":[
+                'https://drive.google.com/thumbnail?id=19jm2gWEZGgO8Mva6HI2jNz_b6OkFJE23&sz=w2000',
+                'https://drive.google.com/thumbnail?id=17bYhjeLp9I0eBTnOFsPd8hJoJBAo06Ry&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1gHzoG9-xGMlJ7VeTBYymnyYaW2vUTBUm&sz=w2000',
+                'https://drive.google.com/thumbnail?id=15rXFmTAt7Y59LezX1a0zbDt7uCVHvQHm&sz=w2000',
+            ],
+            "hostel_desc": [
+                "Chinchus Men's Hostel is an excellent accommodation option located near the engineering college in Westhill. The hostel is managed by a friendly and welcoming owner who ensures a pleasant stay for all residents. Guests can enjoy delicious, home-cooked meals prepared with care.",
+                "The hostel features five rooms, with three rooms having attached bathrooms for added convenience. The other two rooms share two external bathrooms. Additionally, there is a rooftop area equipped with a facility for drying clothes in the sunlight and an open study area, providing a comfortable space for studying.",
+                "Cleaning staff visit twice a week to maintain a clean and hygienic environment throughout the hostel.",
+            ],
+
+            "near_college": ["GECK", "POLY"],
+
+            "hostel_amenities": [
+                "Free WiFi",
+                "Cleaning staffs",
+                "Bike parking area",
+                "Homely, nutritious meals",
+                "Chicken Biriyani twice a month",
+                "Automatic water motor system",
+                "Security cameras for protection",
+                "Carrom board for entertainment",
+                "Aqua-guard purified drinking water",
+                "Mosquito nets on windows in all rooms",
+            ],
+
+            "hostel_fees": [
+                ("Advance Payment", "A reasonable advance payment required before moving in", "₹2000"),
+                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5500"),
+                ("Current Bill","shared among the hostelites","₹XXX"),
+
+            ],
+
+            "rating": 0.0,
+            "reviews": [("name", "review1"), ("name2", "review2")]
+
+        },
+        "more_details": {
+            "hostel_l_address": "Chinju's Hostel, Near Bilathikkuam",
+
+            "owner": {
+                "owner_name": "Philomina",
+                "owner_ph": ["9495258968", "9495258968"],
+                "owner_wp": "9495258968",
+                "owner_Address": "",
+            },
+
+            "hostel_gmap": [],
+            "total_slots": 25,
+            
+        },
+        "survey": {
+            "type": "MH",
+            "with_food": 1,
+            "distance_below": 100,
+            "wifi": 1,
+        }
+    },
+
+
+
+    14: {
+        "hostel_name": "Chinchus MH 3",
+        "Preview": {
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1AmGIDJ7fMelHZe8wGDMtpIYxUaKcd1GI&sz=w2000',
+
+
+            "hostel_desc": "Chinchus Men's Hostel is an excellent accommodation option located...",
+            "card_badges": ["Men's Hostel","Spacious"],
+            "hostel_price": "₹5500",
+        },
+        "details": {
+            "hostel_s_address": "Near Engineering College, Westhill",
+            "hostel_price": "₹5500",
+
+            "hostel_images":[
+                'https://drive.google.com/thumbnail?id=1VJ1W_iLcrb1l-RagK2McasC1o1AJHa4H&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1AmGIDJ7fMelHZe8wGDMtpIYxUaKcd1GI&sz=w2000',
+                'https://drive.google.com/thumbnail?id=17thOeXNLn4d_vvbE_mrP2SKf--yDAmeJ&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1lWJVPmQ5odRxDENwnNV1euY-5S_IMKJR&sz=w2000',
+                'https://drive.google.com/thumbnail?id=18__ZeVv0yxY7-9jhkOJZfkOlwmaYTgJb&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1IniXaDjdRR-cYmTlLIPUU4vrl1W7Zabw&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1qJ5XKMvnC46qdu-2qXdyl4hwA60BfHrd&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1NOOip8ENHq_K7M_-pKn3EA2UnV8Sw9vE&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1tIeEFzWfseS1lFxkrRyEQYJNcYNoT-iM&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1Yq8naTrjKqn7V941hEr4JcS338UYBdGw&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1NvphegEmiAPw9cVh6rOXZzdFXFEMSV8i&sz=w2000',
+                ],
+            "hostel_desc": [
+                "Chinchus Men's Hostel is an excellent accommodation option located near the engineering college in Westhill. The hostel is managed by a friendly and welcoming owner who ensures a pleasant stay for all residents. Guests can enjoy delicious, home-cooked meals prepared with care.",
+                "The hostel features five rooms, with three rooms having attached bathrooms for added convenience. The other two rooms share two external bathrooms. Additionally, there is a rooftop area equipped with a facility for drying clothes in the sunlight and an open study area, providing a comfortable space for studying.",
+                "Cleaning staff visit twice a week to maintain a clean and hygienic environment throughout the hostel.",
+            ],
+
+            "near_college": ["GECK", "POLY"],
+
+            "hostel_amenities": [
+                "Free WiFi",
+                "Cleaning staffs",
+                "Bike parking area",
+                "Homely, nutritious meals",
+                "Chicken Biriyani twice a month",
+                "Automatic water motor system",
+                "Security cameras for protection",
+                "Carrom board for entertainment",
+                "Aqua-guard purified drinking water",
+                "Mosquito nets on windows in all rooms",
+            ],
+
+            "hostel_fees": [
+                ("Advance Payment", "A reasonable advance payment required before moving in", "₹2000"),
+                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5500"),
+                ("Current Bill","shared among the hostelites","₹XXX"),
+
+            ],
+
+            "rating": 0.0,
+            "reviews": [("name", "review1"), ("name2", "review2")]
+
+        },
+        "more_details": {
+            "hostel_l_address": "Chinju's Hostel, Near Bilathikkuam",
+
+            "owner": {
+                "owner_name": "Philomina",
+                "owner_ph": ["9495258968", "9495258968"],
+                "owner_wp": "9495258968",
+                "owner_Address": "",
+            },
+
+            "hostel_gmap": [],
+            "total_slots": 25,
+            
+        },
+        "survey": {
+            "type": "MH",
+            "with_food": 1,
+            "distance_below": 100,
+            "wifi": 1,
+        }
+    },
+
+    15: {
+        "hostel_name": "Surya LH 2",
+        "Preview": {
+            "hostel_image": 'https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Surya+LH+2',
+
+
+            "hostel_desc": "Chinchus Men's Hostel is an excellent accommodation option located...",
+            "card_badges": ["Ladies Hostel"],
+            "hostel_price": "₹5500",
+        },
+        "details": {
+            "hostel_s_address": "Near Engineering College, Westhill",
+            "hostel_price": "₹5500",
+
+            "hostel_images":[
+                'https://drive.google.com/thumbnail?id=1VJ1W_iLcrb1l-RagK2McasC1o1AJHa4H&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1AmGIDJ7fMelHZe8wGDMtpIYxUaKcd1GI&sz=w2000',
+                'https://drive.google.com/thumbnail?id=17thOeXNLn4d_vvbE_mrP2SKf--yDAmeJ&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1lWJVPmQ5odRxDENwnNV1euY-5S_IMKJR&sz=w2000',
+                'https://drive.google.com/thumbnail?id=18__ZeVv0yxY7-9jhkOJZfkOlwmaYTgJb&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1IniXaDjdRR-cYmTlLIPUU4vrl1W7Zabw&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1qJ5XKMvnC46qdu-2qXdyl4hwA60BfHrd&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1NOOip8ENHq_K7M_-pKn3EA2UnV8Sw9vE&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1tIeEFzWfseS1lFxkrRyEQYJNcYNoT-iM&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1Yq8naTrjKqn7V941hEr4JcS338UYBdGw&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1NvphegEmiAPw9cVh6rOXZzdFXFEMSV8i&sz=w2000',
+                ],
+            "hostel_desc": [
+                "Chinchus Men's Hostel is an excellent accommodation option located near the engineering college in Westhill. The hostel is managed by a friendly and welcoming owner who ensures a pleasant stay for all residents. Guests can enjoy delicious, home-cooked meals prepared with care.",
+                "The hostel features five rooms, with three rooms having attached bathrooms for added convenience. The other two rooms share two external bathrooms. Additionally, there is a rooftop area equipped with a facility for drying clothes in the sunlight and an open study area, providing a comfortable space for studying.",
+                "Cleaning staff visit twice a week to maintain a clean and hygienic environment throughout the hostel.",
+            ],
+
+            "near_college": ["GECK", "POLY"],
+
+            "hostel_amenities": [
+                "Free WiFi",
+                "Cleaning staffs",
+                "Bike parking area",
+                "Homely, nutritious meals",
+                "Chicken Biriyani twice a month",
+                "Automatic water motor system",
+                "Security cameras for protection",
+                "Carrom board for entertainment",
+                "Aqua-guard purified drinking water",
+                "Mosquito nets on windows in all rooms",
+            ],
+
+            "hostel_fees": [
+                ("Advance Payment", "A reasonable advance payment required before moving in", "₹2000"),
+                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5500"),
+                ("Current Bill","shared among the hostelites","₹XXX"),
+
+            ],
+
+            "rating": 0.0,
+            "reviews": [("name", "review1"), ("name2", "review2")]
+
+        },
+        "more_details": {
+            "hostel_l_address": "Chinju's Hostel, Near Bilathikkuam",
+
+            "owner": {
+                "owner_name": "Philomina",
+                "owner_ph": ["9495258968", "9495258968"],
+                "owner_wp": "9495258968",
+                "owner_Address": "",
+            },
+
+            "hostel_gmap": [],
+            "total_slots": 25,
+            
         },
         "survey": {
             "type": "MH",

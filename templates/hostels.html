@@ -36,10 +36,10 @@
     </div>
   </nav>
 
-  <div class="container my-5 fade-in">
+  <div class="container my-5 fade-in visible">
     {% if hostels %}
-      <h2 class="mb-4">Featured Properties</h2>
-      <p class="mb-5">Explore our handpicked selection of featured hostels. Each listing offers a glimpse into exceptional homes available through Nestclub. Click "Details" for more information.</p>
+      <h2 class="mb-4 fade-in">Featured Properties</h2>
+      <p class="mb-5 fade-in">Explore our handpicked selection of featured hostels. Each listing offers a glimpse into exceptional homes available through Nestclub. Click 'Details' to learn more and choose the best hostel for you.</p>
       <div class="row">
         {% for key,hostel in hostels.items() %}
         <div class="col-md-4 mb-4 fade-in">
@@ -49,8 +49,14 @@
               <h5 class="card-title">{{ hostel['name'] }}</h5>
               <p class="card-text">{{  hostel['Preview']['hostel_desc'] }} <a href="/hostel-details/{{ key }}" class="text-info">Read More</a></p>
               <p>
-                {% for j in  hostel['Preview']['card_badges'] %}
-                <span class="badge badge-info">{{ j }}</span>
+                {% for j in hostel['Preview']['card_badges'] %}
+                  {% if loop.first %}
+                    <a href="/hostel-types">
+                      <span class="badge badge-info">{{ j }}</span>
+                    </a>
+                  {% else %}
+                    <span class="badge badge-info">{{ j }}</span>
+                  {% endif %}
                 {% endfor %}
               </p>
               <div class="mt-auto card-footer">
@@ -82,7 +88,7 @@
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const observerOptions = {
-        threshold: 0.1
+        threshold: 0
       };
       
       const observer = new IntersectionObserver((entries, observer) => {

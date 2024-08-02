@@ -4,7 +4,7 @@ from datetime import datetime
 from flask import Flask, render_template, redirect, url_for, request, session
 
 from database import save_user_request
-from hostel_db_op import fetch_all_preview, fetch_details, find_owner_phone_number, find_hostel_name,check
+from hostel_db_op import fetch_all_preview, fetch_details, find_owner_phone_number, find_hostel_name,check,find_hostel_gmap
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY')  # Change this to a random secret key
@@ -46,6 +46,8 @@ def details(id):
 
 @app.route("/client-request", methods=["GET", "POST"])
 def request_info():
+    gmap = False  # Initialize gmap
+
     if request.method == "POST":
         try:
             # Store user data in session
@@ -61,6 +63,8 @@ def request_info():
             ist = pytz.timezone('Asia/Kolkata')
             # Get the current time in IST
             now_ist = datetime.now(ist)
+
+            gmap = find_hostel_gmap(int(session['hostel_id']))
 
             user = {
                 "name": session['name'],
@@ -89,7 +93,11 @@ def request_info():
         except Exception as e:
             print(f"Error occurred: {e}")
             code = 0
-    return render_template("success.html", code=code)
+    else:
+        code = 0  # Set a default code for GET requests
+
+    return render_template("success.html", code=code, gmap=gmap)
+
 
 @app.route("/contactus")
 def contact_us():
@@ -106,6 +114,11 @@ def privacy_policy():
 @app.route('/services')
 def services():
     return redirect(url_for('index') + "#section2")
+
+@app.route('/hostel-types')
+def hostel_types():
+    return redirect(url_for('instructions') + "#section1")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
