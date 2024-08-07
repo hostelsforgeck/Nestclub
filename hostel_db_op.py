@@ -1,6 +1,6 @@
 from hostel_db import hostels
 
-SHUFFLE_PREVIEW = False
+SHUFFLE_PREVIEW = True
 
 # ImmutableMultiDict([('hostelType', 'PG-M'), ('distance', '100'), ('foodType', '0')])
 def check(hostel_type,distance,with_food):

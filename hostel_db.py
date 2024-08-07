@@ -800,9 +800,10 @@ hostels = {
     },
 
     12: {
-        "hostel_name": "Neha LH",
+        "hostel_name": "Neha LH 1",
         "Preview": {
-            "hostel_image": 'https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Neha+LH',
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1radBsesWsyCacM6RKGVDw3z0WOyqHaHf&sz=w2000',
+
 
             "hostel_desc": "Neha Ladies Hostel is located near the engineering college in Westhill...",
             "card_badges": ["Ladies Hostel", "Shared rooms"],
@@ -813,7 +814,16 @@ hostels = {
             "hostel_price": "₹5000",
 
             "hostel_images": [
-                'https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Neha+LH',
+                'https://drive.google.com/thumbnail?id=1qF1CYVnRBc33aDhBiqsSrm5uBtKCS_Um&sz=w2000',
+
+                'https://drive.google.com/thumbnail?id=1Y6iDLbLmp3HnmbDN5Z-6MRVfxBpO7Mat&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1vF3rVpDsRgYHo7PLH2uPsbidkisHIbyu&sz=w2000',
+
+                'https://drive.google.com/thumbnail?id=1Qj3GMcJoOmzXV4WByoqbFkVk5paJQo2g&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1radBsesWsyCacM6RKGVDw3z0WOyqHaHf&sz=w2000',
+
+                'https://drive.google.com/thumbnail?id=1JWkR_mViVrGj6WVC7DIAKyiWXYw-wQhw&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1T1KnwjUetx31RNg4xxUTbQXnnLMXTI1q&sz=w2000',
             ],
 
             "hostel_desc": [
@@ -861,7 +871,7 @@ hostels = {
     13: {
         "hostel_name": "Manjus PG",
         "Preview": {
-            "hostel_image": 'https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Manjus+PG',
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1utYVqsfs4ccRpgKKjN4rDCkglSQz8K9r&sz=w2000',
 
             "hostel_desc": "Manjus PG is an excellent paying guest accommodation tailored specifically...",
             "card_badges": ["PG-Ladies", "2 Rooms"],
@@ -872,6 +882,7 @@ hostels = {
             "hostel_price": "₹5700",
 
             "hostel_images": [
+                'https://drive.google.com/thumbnail?id=1utYVqsfs4ccRpgKKjN4rDCkglSQz8K9r&sz=w2000',
                 'https://drive.google.com/thumbnail?id=19jm2gWEZGgO8Mva6HI2jNz_b6OkFJE23&sz=w2000',
                 'https://drive.google.com/thumbnail?id=17bYhjeLp9I0eBTnOFsPd8hJoJBAo06Ry&sz=w2000',
                 'https://drive.google.com/thumbnail?id=1gHzoG9-xGMlJ7VeTBYymnyYaW2vUTBUm&sz=w2000',
@@ -999,7 +1010,74 @@ hostels = {
         }
     },
 
-    # 15: {
+    15: {
+        "hostel_name": "Neha LH 2",
+        "Preview": {
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1eUhB_iA5GgJEMYRFvk-r9ELwR_FWY2Tx&sz=w2000',
+            "hostel_desc": "Neha Ladies Hostel is located near the engineering college in Westhill...",
+            "card_badges": ["Ladies Hostel", "Shared rooms"],
+            "hostel_price": "₹5000",
+        },
+        "details": {
+            "hostel_s_address": "Near Engineering College, Westhill",
+            "hostel_price": "₹5000",
+
+            "hostel_images": [
+                                'https://drive.google.com/thumbnail?id=1eUhB_iA5GgJEMYRFvk-r9ELwR_FWY2Tx&sz=w2000',
+
+                'https://drive.google.com/thumbnail?id=1yTCTZe8PakWNlODhLAQS5q3tnl2onpyg&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1Z9PskoHpwZEnEWPGoEzVQmI1SgLaUTDd&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1e-cBF6pDSE_vgh-x3RW8g_dj61Da4YxL&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1Xz1m1UbFg5bk-OuRYCRLMKi8UjpeiWMx&sz=w2000',
+                                'https://drive.google.com/thumbnail?id=1tk9Jz2sObd5bt_Jjez9_n8q3DO4PY5H1&sz=w2000',
+
+                'https://drive.google.com/thumbnail?id=1f84KRHUSC-6j0Lgp1YArmPBnWj4o4DFc&sz=w2000',
+                'https://drive.google.com/thumbnail?id=13XW3arNQ4CZg8UbNWhfNXubgT0f-7Zly&sz=w2000',
+            ],
+
+            "hostel_desc": [
+                "Neha Ladies Hostel is located near the engineering college in Westhill. Our residents enjoy delicious home-cooked meals prepared with care, ensuring a taste of home. Each room comes with an attached bathroom for your comfort and convenience. We also provide facilities for drying clothes in sunlight and a dedicated study area to support your academic needs.", ],
+
+            "near_college": ["GECK", "POLY"],
+
+            "hostel_amenities": [
+                "Wifi connectivity",
+                "Cloth washing area",
+                "Homely, nutritious meals",
+            ],
+
+            "hostel_fees": [
+                ("Advance Payment", "A reasonable advance payment required before moving in", "₹4000"),
+                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5000"),
+
+            ],
+
+            "rating": 0.0,
+            "reviews": [("name", "review1"), ("name2", "review2")]
+
+        },
+        "more_details": {
+            "hostel_l_address": "Neha Hostel",
+
+            "owner": {
+                "owner_name": "Sivadas",
+                "owner_ph": ["9895657453"],
+                "owner_wp": "919895657453",
+                "owner_Address": "",
+            },
+
+            "hostel_gmap": [],
+            "total_slots": 25,
+        },
+        "survey": {
+            "type": "LH",
+            "with_food": 1,
+            "distance_below": 100,
+            "wifi": 1,
+        }
+    },
+
+    # 16: {
     #     "hostel_name": "Surya LH 2",
     #     "Preview": {
     #         "hostel_image": 'https://via.placeholder.com/1200x500/336699/FFFFFF/?text=Surya+LH+2',
