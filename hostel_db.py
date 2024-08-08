@@ -832,7 +832,6 @@ hostels = {
             "near_college": ["GECK", "POLY"],
 
             "hostel_amenities": [
-                "Wifi connectivity",
                 "Cloth washing area",
                 "Homely, nutritious meals",
             ],
