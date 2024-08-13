@@ -867,70 +867,70 @@ hostels = {
         }
     },
 
-    13: {
-        "hostel_name": "Manjus PG",
-        "Preview": {
-            "hostel_image": 'https://drive.google.com/thumbnail?id=1utYVqsfs4ccRpgKKjN4rDCkglSQz8K9r&sz=w2000',
+    # 13: {
+    #     "hostel_name": "Manjus PG",
+    #     "Preview": {
+    #         "hostel_image": 'https://drive.google.com/thumbnail?id=1utYVqsfs4ccRpgKKjN4rDCkglSQz8K9r&sz=w2000',
 
-            "hostel_desc": "Manjus PG is an excellent paying guest accommodation tailored specifically...",
-            "card_badges": ["PG-Ladies", "2 Rooms"],
-            "hostel_price": "₹5700",
-        },
-        "details": {
-            "hostel_s_address": "Near Engineering College, Westhill",
-            "hostel_price": "₹5700",
+    #         "hostel_desc": "Manjus PG is an excellent paying guest accommodation tailored specifically...",
+    #         "card_badges": ["PG-Ladies", "2 Rooms"],
+    #         "hostel_price": "₹5700",
+    #     },
+    #     "details": {
+    #         "hostel_s_address": "Near Engineering College, Westhill",
+    #         "hostel_price": "₹5700",
 
-            "hostel_images": [
-                'https://drive.google.com/thumbnail?id=1utYVqsfs4ccRpgKKjN4rDCkglSQz8K9r&sz=w2000',
-                'https://drive.google.com/thumbnail?id=19jm2gWEZGgO8Mva6HI2jNz_b6OkFJE23&sz=w2000',
-                'https://drive.google.com/thumbnail?id=17bYhjeLp9I0eBTnOFsPd8hJoJBAo06Ry&sz=w2000',
-                'https://drive.google.com/thumbnail?id=1gHzoG9-xGMlJ7VeTBYymnyYaW2vUTBUm&sz=w2000',
-                'https://drive.google.com/thumbnail?id=15rXFmTAt7Y59LezX1a0zbDt7uCVHvQHm&sz=w2000',
-            ],
-            "hostel_desc": [
-                "Manjus PG is an excellent paying guest accommodation tailored specifically for ladies seeking a comfortable and homely living environment. This well-regarded hostel offers a welcoming atmosphere where residents can enjoy the convenience of rooms with attached bathrooms, ensuring privacy and ease.",
+    #         "hostel_images": [
+    #             'https://drive.google.com/thumbnail?id=1utYVqsfs4ccRpgKKjN4rDCkglSQz8K9r&sz=w2000',
+    #             'https://drive.google.com/thumbnail?id=19jm2gWEZGgO8Mva6HI2jNz_b6OkFJE23&sz=w2000',
+    #             'https://drive.google.com/thumbnail?id=17bYhjeLp9I0eBTnOFsPd8hJoJBAo06Ry&sz=w2000',
+    #             'https://drive.google.com/thumbnail?id=1gHzoG9-xGMlJ7VeTBYymnyYaW2vUTBUm&sz=w2000',
+    #             'https://drive.google.com/thumbnail?id=15rXFmTAt7Y59LezX1a0zbDt7uCVHvQHm&sz=w2000',
+    #         ],
+    #         "hostel_desc": [
+    #             "Manjus PG is an excellent paying guest accommodation tailored specifically for ladies seeking a comfortable and homely living environment. This well-regarded hostel offers a welcoming atmosphere where residents can enjoy the convenience of rooms with attached bathrooms, ensuring privacy and ease.",
 
-                "At Manjus PG, residents benefit from delicious, home-cooked meals that provide a comforting and familiar dining experience. The hostel is designed to accommodate two people per room, fostering a cozy and friendly atmosphere. With its focus on providing a supportive and pleasant living space, Manjus PG is an ideal choice for those looking for a secure and homely place to stay.",
-            ],
+    #             "At Manjus PG, residents benefit from delicious, home-cooked meals that provide a comforting and familiar dining experience. The hostel is designed to accommodate two people per room, fostering a cozy and friendly atmosphere. With its focus on providing a supportive and pleasant living space, Manjus PG is an ideal choice for those looking for a secure and homely place to stay.",
+    #         ],
 
-            "near_college": ["GECK", "POLY"],
+    #         "near_college": ["GECK", "POLY"],
 
-            "hostel_amenities": [
-                "Clean rooms",
-                "Homely, nutritious meals",
+    #         "hostel_amenities": [
+    #             "Clean rooms",
+    #             "Homely, nutritious meals",
 
-            ],
+    #         ],
 
-            "hostel_fees": [
-                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5700"),
+    #         "hostel_fees": [
+    #             ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5700"),
 
-            ],
+    #         ],
 
-            "rating": 0.0,
-            "reviews": [("name", "review1"), ("name2", "review2")]
+    #         "rating": 0.0,
+    #         "reviews": [("name", "review1"), ("name2", "review2")]
 
-        },
-        "more_details": {
-            "hostel_l_address": "Chinju's Hostel, Near Bilathikkuam",
+    #     },
+    #     "more_details": {
+    #         "hostel_l_address": "Chinju's Hostel, Near Bilathikkuam",
 
-            "owner": {
-                "owner_name": "Manju",
-                "owner_ph": ["8921948475", ],
-                "owner_wp": "918921948475",
-                "owner_Address": "",
-            },
+    #         "owner": {
+    #             "owner_name": "Manju",
+    #             "owner_ph": ["8921948475", ],
+    #             "owner_wp": "918921948475",
+    #             "owner_Address": "",
+    #         },
 
-            "hostel_gmap": ['11.287015', '75.774209', 'MTEuMjg3MDE1LDc1Ljc3NDIwOQ=='],
-            "total_slots": 0,
+    #         "hostel_gmap": ['11.287015', '75.774209', 'MTEuMjg3MDE1LDc1Ljc3NDIwOQ=='],
+    #         "total_slots": 0,
 
-        },
-        "survey": {
-            "type": "PG-L",
-            "with_food": 1,
-            "distance_below": 0,
-            "wifi": 0,
-        }
-    },
+    #     },
+    #     "survey": {
+    #         "type": "PG-L",
+    #         "with_food": 1,
+    #         "distance_below": 0,
+    #         "wifi": 0,
+    #     }
+    # },
 
     14: {
         "hostel_name": "Chinchus MH 3",
