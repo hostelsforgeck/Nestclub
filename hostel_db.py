@@ -2,7 +2,7 @@ hostels = {
     1: {
         "hostel_name": "Chinchus MH 1",
         "Preview": {
-            "hostel_image": 'https://drive.google.com/thumbnail?id=1VyYY6o2GNDROsHvsEGEah1OdnnayTwFn&sz=w2000',
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1clRz2-NNck857LMjPHuSvqrRd64npHYY&sz=w2000',
 
             "hostel_desc": "Chinchus Men's Hostel is an excellent accommodation option located...",
             "card_badges": ["Men's Hostel", "5-Bedroom", "Wifi"],
@@ -13,12 +13,11 @@ hostels = {
             "hostel_price": "₹5500",
 
             "hostel_images": [
-                'https://drive.google.com/thumbnail?id=1aWyeR0jc39OCJ7-h67TncsZzasFGpsJx&sz=w2000',
-                'https://drive.google.com/thumbnail?id=1VyYY6o2GNDROsHvsEGEah1OdnnayTwFn&sz=w2000',
-                'https://drive.google.com/thumbnail?id=1efiog09OtEHmQnfIQw04s4pieRy7Zy6B&sz=w2000',
-                'https://drive.google.com/thumbnail?id=15Tvf8tOg1wNVcE2FUqowE5-FLog8LKZz&sz=w2000',
-                'https://drive.google.com/thumbnail?id=1G36q5BEZAjz6HYwg8hQet08PCe7OafJL&sz=w2000',
-
+                'https://drive.google.com/thumbnail?id=1WBbAFcBToqmn5cBK4T2ydCVqTxKE2uLV&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1MiiKQqWaA15cMHOAhzK_AL67fYZYg8uR&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1clRz2-NNck857LMjPHuSvqrRd64npHYY&sz=w2000',
+                'https://drive.google.com/thumbnail?id=10iS0AAcWWw_sKpZq6_FLE0Te_MBO5UAx&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1uY6y2KYp8G1fpBDVD1C-hUwi3zXbFLa2&sz=w2000',
             ],
             "hostel_desc": [
                 "Chinchus Men's Hostel is an excellent accommodation option located near the engineering college in Westhill. The hostel is managed by a friendly and welcoming owner who ensures a pleasant stay for all residents. Guests can enjoy delicious, home-cooked meals prepared with care.",
@@ -146,7 +145,7 @@ hostels = {
     3: {
         "hostel_name": "Chinchus PG",
         "Preview": {
-            "hostel_image": 'https://drive.google.com/thumbnail?id=1YkBAMbaSke8ZsK38tYVqxyEdsXgscNXp&sz=w2000',
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1f7B_cUH89FeybJ_nGLu10lnYYSt_zrMP&sz=w2000',
 
             "hostel_desc": "This is an excellent paying guest accommodation option for ladies...",
             "card_badges": ["PG-Ladies", "Wifi", ],
@@ -157,8 +156,8 @@ hostels = {
             "hostel_price": "₹5000",
 
             "hostel_images": [
-                'https://drive.google.com/thumbnail?id=1tfTobK7A43yZc-20Y7IzGKbC9Pp8OW69&sz=w2000',
                 'https://drive.google.com/thumbnail?id=1YkBAMbaSke8ZsK38tYVqxyEdsXgscNXp&sz=w2000'
+                'https://drive.google.com/thumbnail?id=1tfTobK7A43yZc-20Y7IzGKbC9Pp8OW69&sz=w2000',
                 'https://drive.google.com/thumbnail?id=1R1vtAv34tLotdFVgba5YMtaWQMRD2-_f&sz=w2000',
                 'https://drive.google.com/thumbnail?id=1W_DLqX_IkyCEa_lK0K98vtvl8a38Ay8r&sz=w2000',
                 'https://drive.google.com/thumbnail?id=1dOxY_W6VcndLWWft7jVX5Gc5GkiKAD0B&sz=w2000',
@@ -168,6 +167,7 @@ hostels = {
                 'https://drive.google.com/thumbnail?id=15q9Y32uXfSrDsO-FY6-SJBuJ71dbHwu9&sz=w2000',
                 'https://drive.google.com/thumbnail?id=1PfSRg3BrPxF--ps7BOxXtAzM83IFl3tG&sz=w2000',
                 'https://drive.google.com/thumbnail?id=1kJNjsA2yVzqZ0FqoV2ESMsM8kmaxmvDG&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1f7B_cUH89FeybJ_nGLu10lnYYSt_zrMP&sz=w2000',
             ],
 
             "hostel_desc": [
@@ -294,7 +294,7 @@ hostels = {
     5: {
         "hostel_name": "Olive Hostel 1",
         "Preview": {
-            "hostel_image": 'https://drive.google.com/thumbnail?id=1n78hKHyS4z9582a6WqzscEggG3Z9cIY1&sz=w2000',
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1QhsCZzOE-hhaqfrz2cIsTBRI5xHf6qnl&sz=w2000',
             "hostel_desc": "Olive Hostel is a highly regarded ladies' hostel conveniently located near...",
 
             "card_badges": ["Ladies Hostel", "Wifi", "Kitchen"],
@@ -305,12 +305,12 @@ hostels = {
             "hostel_price": "₹5200",
 
             "hostel_images": [
-                'https://drive.google.com/thumbnail?id=1gO-MPYWh4AzRiy_i2YY1lLVo39_uQ-QH&sz=w2000',
-                'https://drive.google.com/thumbnail?id=1n78hKHyS4z9582a6WqzscEggG3Z9cIY1&sz=w2000',
-                'https://drive.google.com/thumbnail?id=1RGcuPhjJflWVvCvk3Z5QshRVLL5Ysuk7&sz=w2000',
-                'https://drive.google.com/thumbnail?id=1ZSLKD_nRIEeZ16gR1e9daGidjwY006B5&sz=w2000',
-                'https://drive.google.com/thumbnail?id=1c3QCbMX_pAB6XW3f-fRPu6mKOxDmr-t5&sz=w2000',
-                'https://drive.google.com/thumbnail?id=1q9wrFhEJycsf3L8et0HbsLVA3tMkEaS3&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1-OkdI9mm_nKuKjwcQtY6pWgcVoFpwOrN&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1bW4IMeqWZQg-kkhH7HZMEIIIgvEsYGG6&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1hLyZw0KTdu9TWKtiOE8aN0d_3e3ePKEu&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1DvmnLfeFxOuuMFTbFhojowLGSTRBz8Pa&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1QhsCZzOE-hhaqfrz2cIsTBRI5xHf6qnl&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1CGzV295xixtMxBJdeScYvm9gl0Ul335c&sz=w2000',
             ],
             "hostel_desc": [
                 "Olive Hostel is a highly regarded ladies' hostel conveniently located near the engineering college. Renowned for its comfortable and secure environment, Olive Hostel offers an array of amenities designed to make student life easier and more enjoyable.",
@@ -1032,6 +1032,73 @@ hostels = {
 
                 'https://drive.google.com/thumbnail?id=1f84KRHUSC-6j0Lgp1YArmPBnWj4o4DFc&sz=w2000',
                 'https://drive.google.com/thumbnail?id=13XW3arNQ4CZg8UbNWhfNXubgT0f-7Zly&sz=w2000',
+            ],
+
+            "hostel_desc": [
+                "Neha Ladies Hostel is located near the engineering college in Westhill. Our residents enjoy delicious home-cooked meals prepared with care, ensuring a taste of home. Each room comes with an attached bathroom for your comfort and convenience. We also provide facilities for drying clothes in sunlight and a dedicated study area to support your academic needs.", ],
+
+            "near_college": ["GECK", "POLY"],
+
+            "hostel_amenities": [
+                "Wifi connectivity",
+                "Cloth washing area",
+                "Homely, nutritious meals",
+            ],
+
+            "hostel_fees": [
+                ("Advance Payment", "A reasonable advance payment required before moving in", "₹4000"),
+                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5000"),
+
+            ],
+
+            "rating": 0.0,
+            "reviews": [("name", "review1"), ("name2", "review2")]
+
+        },
+        "more_details": {
+            "hostel_l_address": "Neha Hostel",
+
+            "owner": {
+                "owner_name": "Sivadas",
+                "owner_ph": ["9895657453"],
+                "owner_wp": "919895657453",
+                "owner_Address": "",
+            },
+
+            "hostel_gmap": [],
+            "total_slots": 25,
+        },
+        "survey": {
+            "type": "LH",
+            "with_food": 1,
+            "distance_below": 100,
+            "wifi": 1,
+        }
+    },
+
+    16: {
+        "hostel_name": "Neha LH 3",
+        "Preview": {
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1MR-8YYaMmXAnqsX586iARhGi_HbvlBtR&sz=w2000',
+            "hostel_desc": "Neha Ladies Hostel is located near the engineering college in Westhill...",
+            "card_badges": ["Ladies Hostel", "Shared rooms"],
+            "hostel_price": "₹5000",
+        },
+        "details": {
+            "hostel_s_address": "Near Engineering College, Westhill",
+            "hostel_price": "₹5000",
+
+            "hostel_images": [
+                'https://drive.google.com/thumbnail?id=1MR-8YYaMmXAnqsX586iARhGi_HbvlBtR&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1sJ_eDoGEvH2AvbpSh4RZebn5cSjwuusS&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1wIlwmVA5Lqk_i-Hk7eBvMR-cFnZjShpZ&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1vuPHuKNypHEJN7-Lbw6aANF-P3kiQE7M&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1_AmB1D_rTmSbqMaRPZiMhtBfYBWe-rue&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1nuGVL-_10a87jtqzj2wjfjlLivD9RYBV&sz=w2000',
+                'https://drive.google.com/thumbnail?id=16qi0T_ULDEYNeYc-qXt32Zl1X302fnF3&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1bb_SFKfLXwhaNDYnc_4jTqOXTLdIgdau&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1ouGrTy66q1bp5F_MIgTe4UPge6eb7VZJ&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1A5-vpHJL0W2I9HffNFDpDMq-yZQai8Yq&sz=w2000',
             ],
 
             "hostel_desc": [
