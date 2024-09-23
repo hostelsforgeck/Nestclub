@@ -49,7 +49,7 @@
 
   <div class="container my-5 fade-in visible">
     {% if hostels %}
-      <h2 class="mb-4 fade-in">Featured Properties</h2>
+      <h2 class="mb-4 fade-in">Featured Hostels</h2>
       <p class="mb-5 fade-in">Explore our handpicked selection of featured hostels. Each listing offers a glimpse into exceptional homes available through Nestclub. Click 'Details' to learn more and choose the best hostel for you.</p>
       <div class="row">
         {% for key,hostel in hostels.items() %}
@@ -66,7 +66,13 @@
                       <span class="badge badge-info">{{ j }}</span>
                     </a>
                   {% else %}
-                    <span class="badge badge-info">{{ j }}</span>
+
+                    {% if j == "No Vacancy" %}
+                      <span class="badge badge-info" style="background-color: rgb(179, 52, 52);">{{ j }}</span>
+                    {% else %}
+                      <span class="badge badge-info">{{ j }}</span>
+                    {% endif %}
+
                   {% endif %}
                 {% endfor %}
               </p>

@@ -79,7 +79,7 @@ hostels = {
             "hostel_image": "https://drive.google.com/thumbnail?id=178PKY1ZXs-liF09SkpsHblwq77ELACRZ&sz=w2000",
 
             "hostel_desc": "Chinchus Ladies Hostel is an excellent accommodation option for women...",
-            "card_badges": ["Ladies Hostel", "Wifi", ],
+            "card_badges": ["Ladies Hostel","No Vacancy", "Wifi", ],
             "hostel_price": "₹5000",
         },
         "details": {
@@ -148,7 +148,7 @@ hostels = {
             "hostel_image": 'https://drive.google.com/thumbnail?id=1f7B_cUH89FeybJ_nGLu10lnYYSt_zrMP&sz=w2000',
 
             "hostel_desc": "This is an excellent paying guest accommodation option for ladies...",
-            "card_badges": ["PG-Ladies", "Wifi", ],
+            "card_badges": ["PG-Ladies", "No Vacancy","Wifi", ],
             "hostel_price": "₹5000",
         },
         "details": {
@@ -297,7 +297,7 @@ hostels = {
             "hostel_image": 'https://drive.google.com/thumbnail?id=1QhsCZzOE-hhaqfrz2cIsTBRI5xHf6qnl&sz=w2000',
             "hostel_desc": "Olive Hostel is a highly regarded ladies' hostel conveniently located near...",
 
-            "card_badges": ["Ladies Hostel", "Wifi", "Kitchen"],
+            "card_badges": ["Ladies Hostel","No Vacancy"],
             "hostel_price": "₹5200",
         },
         "details": {
