@@ -806,7 +806,7 @@ hostels = {
 
 
             "hostel_desc": "Neha Ladies Hostel is located near the engineering college in Westhill...",
-            "card_badges": ["Ladies Hostel", "Shared rooms"],
+            "card_badges": ["Ladies Hostel","No Vacancy"],# "Shared rooms"
             "hostel_price": "₹5000",
         },
         "details": {
@@ -1014,7 +1014,7 @@ hostels = {
         "Preview": {
             "hostel_image": 'https://drive.google.com/thumbnail?id=1eUhB_iA5GgJEMYRFvk-r9ELwR_FWY2Tx&sz=w2000',
             "hostel_desc": "Neha Ladies Hostel is located near the engineering college in Westhill...",
-            "card_badges": ["Ladies Hostel", "Shared rooms"],
+            "card_badges": ["Ladies Hostel","No Vacancy"],
             "hostel_price": "₹5000",
         },
         "details": {
@@ -1081,7 +1081,7 @@ hostels = {
         "Preview": {
             "hostel_image": 'https://drive.google.com/thumbnail?id=1MR-8YYaMmXAnqsX586iARhGi_HbvlBtR&sz=w2000',
             "hostel_desc": "Neha Ladies Hostel is located near the engineering college in Westhill...",
-            "card_badges": ["Ladies Hostel", "Shared rooms"],
+            "card_badges": ["Ladies Hostel","No Vacancy"],
             "hostel_price": "₹5000",
         },
         "details": {
