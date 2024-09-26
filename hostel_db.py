@@ -1143,6 +1143,141 @@ hostels = {
         }
     },
 
+17: {
+        "hostel_name": "Sreedevi PG",
+        "Preview": {
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1L5QSc4yLBIKHLyvHOePqIfn-CzgtdeEb&sz=w2000',
+
+            "hostel_desc": "Sreedevi PG is a paying guest option for mens that offers a warm",
+            "card_badges": ["PG-Mens",],
+            "hostel_price": "₹5500",
+        },
+        "details": {
+            "hostel_s_address": "Near Engineering College, Westhill",
+            "hostel_price": "₹5500",
+
+            "hostel_images": [
+                'https://drive.google.com/thumbnail?id=1L5QSc4yLBIKHLyvHOePqIfn-CzgtdeEb&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1_EYB_31L39qQa7RyASGRqV7Zkli3iMke&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1CU53bJMVAEnwigrtcRFS8k7o2r7cnWz5&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1Y1eo2nHAIH9gtTUeOS4qjFk_MbW0jXKE&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1hSePMMqmFuFIanTxuuWWVJb6ScUeE1n1&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1b2hiWTMEbbLqUXiBXhP5qkGji1gtKXyv&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1fNAJ3sYYx2Pj73B4oU9wudS6fG2r7Em_&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1N78AwuIOp9vCPAC7JDYeSadeCUHW2c_x&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1b9Rb7KYtfQ1HSrp55-KujQhmykbMjJre&sz=w2000',
+            ],
+                        "hostel_desc": [
+                "Sreedevi PG is a paying guest option for mens that offers a warm and welcoming homestay experience, where you'll stay with fellow residents in a friendly, comfortable environment. Homely cooked meals daily—breakfast, lunch, evening tea, and dinner—prepared with love to bring you the true taste of home. As a special treat, Delicious biryani once a month for all our residents to enjoy.",
+                "Come and experience the perfect blend of comfort and community at Sreedevi PG!"
+            ],
+
+            "near_college": ["GECK", "POLY"],
+
+            "hostel_amenities": [
+                "Good staffs",
+                "Homely, nutritious meals",
+
+            ],
+
+            "hostel_fees": [
+                ("Advance Payment", "A reasonable advance payment required before moving in", "₹5000"),
+                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5500"),
+
+            ],
+
+            "rating": 0.0,
+            "reviews": [("name", "review1"), ("name2", "review2")]
+
+        },
+        "more_details": {
+            "hostel_l_address": "Sreedevi Hostel",
+
+            "owner": {
+                "owner_name": "Sreedevi",
+                "owner_ph": ["7356916412"],
+                "owner_wp": "7356916412",
+                "owner_Address": "",
+            },
+
+            "hostel_gmap": ['11.283844', '75.776857', 'MTEuMjgzODQ0LDc1Ljc3Njg1Nw=='],
+            "total_slots": 25,
+        },
+        "survey": {
+            "type": "PG",
+            "with_food": 1,
+            "distance_below": 100,
+            "wifi": 0,
+        }
+    },
+18: {
+        "hostel_name": "Peacock PG",
+        "Preview": {
+            "hostel_image": 'https://drive.google.com/thumbnail?id=1t92_fPv45IocSjnZGXaBE0Ln0kH0tGlU&sz=w2000',
+
+            "hostel_desc": "Peacock PG is a good paying guest option for ladies that offers a cozy",
+            "card_badges": ["PG-Ladies",],
+            "hostel_price": "₹5000",
+        },
+        "details": {
+            "hostel_s_address": "Near Engineering College, Westhill",
+            "hostel_price": "₹5000",
+
+            "hostel_images": [
+                'https://drive.google.com/thumbnail?id=1t92_fPv45IocSjnZGXaBE0Ln0kH0tGlU&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1JZek7sfFLAYN2_55DMqWx549sOcfQqWk&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1CLbIuf5Nn8VPK29KzhlnnF_p0F997WEO&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1x0wssNdIlAmJ-fnU3NW_CdylF5wzPuDj&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1WSP5w1IcfTwQIBu2S0xoPxAwTckzbMX9&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1vd6ntZa-EdFzonSnv2tN53vBfgaeSacv&sz=w2000',
+                'https://drive.google.com/thumbnail?id=1jjbaZCpAQYVq_aUe7xk6dwWnwz8k0F78&sz=w2000',
+
+            ],
+                        "hostel_desc": [
+"Peacock PG is a good paying guest option for ladies that offers a cozy and welcoming homestay experience, where you'll stay with fellow residents in a comfortable, friendly environment. Enjoy delicious, home-cooked meals daily—breakfast, lunch, and dinner—prepared with care to provide a satisfying and nutritious experience. As a special treat, biryani is served once a month for all residents to enjoy together.",
+
+"Residents also have access to convenient facilities for drying clothes in natural sunlight. Whether you're here to relax or focus on your studies, Peacock PG is the perfect place to call home."
+            ],
+
+            "near_college": ["GECK", "POLY"],
+
+            "hostel_amenities": [
+                "Good staffs",
+                "Homely, nutritious meals",
+
+            ],
+
+            "hostel_fees": [
+                
+                ("Monthly Rent", "The monthly rent, to be paid at the beginning of each month", "₹5000"),
+
+            ],
+
+            "rating": 0.0,
+            "reviews": [("name", "review1"), ("name2", "review2")]
+
+        },
+        "more_details": {
+            "hostel_l_address": "Peacock PG , Near vivid nursery,karaparmb jn,peoples road",
+
+            "owner": {
+                "owner_name": "Sushita",
+                "owner_ph": ["9847492040"],
+                "owner_wp": "9847492040",
+                "owner_Address": "",
+            },
+
+            "hostel_gmap": ['11.285619', '75.778090', 'MTEuMjg1NjE5LDc1Ljc3ODA5MA=='],
+            "total_slots": 25,
+        },
+        "survey": {
+            "type": "PG",
+            "with_food": 1,
+            "distance_below": 100,
+            "wifi": 0,
+        }
+    },
+
     # 16: {
     #     "hostel_name": "Surya LH 2",
     #     "Preview": {
