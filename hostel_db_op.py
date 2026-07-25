@@ -83,6 +83,12 @@ def find_owner_phone_number(id):
     return num if num else "nil"
 
 
+def find_owner(id):
+    owner = hostels[id]["more_details"]["owner"]
+
+    return owner if owner else False
+
+
 def find_hostel_name(id):
     name = hostels[id]["hostel_name"]
     return name if name else "nil"

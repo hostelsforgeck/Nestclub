@@ -4,7 +4,7 @@ from datetime import datetime
 from flask import Flask, render_template, redirect, url_for, request, session
 
 from database import save_user_request
-from hostel_db_op import fetch_all_preview, fetch_details, find_owner_phone_number, find_hostel_name,check,find_hostel_gmap
+from hostel_db_op import fetch_all_preview, fetch_details, find_owner_phone_number, find_hostel_name,check,find_hostel_gmap,find_owner
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY')  # Change this to a random secret key
@@ -40,7 +40,9 @@ def hostels():
 def details(id):
     try:
         details = fetch_details(id)
-        return render_template("details.html", details=details)
+        gmap = find_hostel_gmap(id)
+        owner = find_owner(id)
+        return render_template("details.html", details=details, gmap=gmap, owner=owner)
     except Exception as e:
         return render_template("success.html", code=0)
 

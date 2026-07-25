@@ -11,64 +11,176 @@ body {
   flex: 1;
 }
 
-.card {
-  border: 3px solid #171616;
-  border-radius: 15px;
-  transition: transform 0.3s;
+/* ---------- Hostel Card ---------- */
+.hostel-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   height: 100%;
+  background: #1b1b1f;
+  border: 1px solid #2a2a2f;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
 }
 
-.card:hover {
-  transform: scale(1.05);
+.hostel-card:hover {
+  transform: translateY(-8px);
+  border-color: #6a0dad;
+  cursor: pointer;
 }
 
-.card-img-top {
-  height: 200px;
+/* Stretch the details link across the whole card so clicking anywhere navigates */
+.btn-details::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* Keep inner links clickable above the stretched overlay.
+   Note: do NOT raise .card-media here, or the image area covers the
+   overlay and clicks on the image won't navigate. */
+.badges a {
+  position: relative;
+  z-index: 2;
+}
+
+.card-media {
+  position: relative;
+  overflow: hidden;
+  background: #232329;
+}
+
+.card-media-link {
+  display: block;
+}
+
+/* Subtle top darkening only — keeps the price tag legible.
+   The image→details fade lives on .card-content (see below) so it
+   stays stable while the image scales on hover. */
+.card-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.28) 0%, rgba(0, 0, 0, 0) 34%);
+  pointer-events: none;
+}
+
+.card-img {
+  width: 100%;
+  height: 210px;
   object-fit: cover;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  display: block;
+  transition: transform 0.5s ease;
 }
 
-.card-body {
+.hostel-card:hover .card-img {
+  transform: scale(1.08);
+}
+
+.price-tag {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  background: rgba(18, 18, 18, 0.72);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.05em;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.price-tag small {
+  font-weight: 400;
+  font-size: 0.7em;
+  opacity: 0.75;
+}
+
+.card-content {
+  position: relative;
+  z-index: 2;
   flex: 1;
   display: flex;
   flex-direction: column;
+  /* Pull up over the image bottom and fade from transparent → card colour,
+     so the picture melts into the details instead of a hard edge. */
+  margin-top: -44px;
+  padding: 58px 20px 20px;
+  background: linear-gradient(180deg, rgba(27, 27, 31, 0) 0%, #1b1b1f 44px);
 }
 
-.card-body .badge {
-  margin-right: 5px;
-  background-color: #282828;
-  color: #ffffff;
-  padding: 0.5em 0.75em;
-  border-radius: 10px;
-  font-size: 0.9em;
-  margin-top: 1.5px;
-}
-
-.card-body a.text-info {
-  color: #a0a0a0;
-}
-
-.card-body a.text-info:hover {
+.card-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 12px;
   color: #ffffff;
 }
 
-.btn-primary {
-  background-color: #6a0dad;
-  border: none;
-  width: 100px;
-}
-
-.btn-primary:hover {
-  background-color: #5a0b9a;
-}
-
-.card-footer {
+.badges {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.badge-pill {
+  display: inline-block;
+  background-color: #2a2a30;
+  color: #d6d6d6;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.78em;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.badge-pill.primary {
+  background: linear-gradient(135deg, #6a0dad, #9b3fd4);
+  color: #fff;
+}
+
+a:hover .badge-pill.primary {
+  filter: brightness(1.1);
+}
+
+.card-desc {
+  color: #a8a8b0;
+  font-size: 0.9em;
+  line-height: 1.55;
+  margin-bottom: 18px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.btn-details {
+  margin-top: auto;
+  display: block;
+  text-align: center;
+  background: linear-gradient(135deg, #6a0dad, #8a1fd0);
+  color: #fff;
+  font-weight: 600;
+  padding: 11px 16px;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.25s ease, filter 0.2s ease;
+}
+
+.btn-details:hover {
+  color: #fff;
+  text-decoration: none;
+  filter: brightness(1.08);
+  box-shadow: 0 8px 20px rgba(106, 13, 173, 0.4);
+}
+
+.btn-details:active {
+  transform: scale(0.98);
 }
 
 .navbar {

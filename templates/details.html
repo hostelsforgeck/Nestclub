@@ -112,6 +112,43 @@
             </div>
         </div>
 
+        {% if gmap %}
+        <div class="map-section fade-in">
+            <h4>Location</h4>
+            <div id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.897875744028!2d{{ gmap[1] }}!3d{{ gmap[0] }}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z{{ gmap[2] }}!5e0!3m2!1sen!2sus!4v1642869952544!5m2!1sen!2sus&maptype=satellite&zoom=21"
+                    allowfullscreen="">
+                </iframe>
+            </div>
+            <a href="https://www.google.com/maps/dir/?api=1&destination={{ gmap[0] }},{{ gmap[1] }}" class="directions-button" target="_blank">Get Directions</a>
+            <br><small>This location is approximate.</small>
+        </div>
+        {% endif %}
+
+        {% if owner %}
+        <div class="owner-details mt-4 fade-in">
+            <h4>Contact Owner</h4>
+
+            {% if owner.owner_name or owner.owner_ph %}
+            <a href="tel:{{ owner.owner_ph|unique|first }}" class="owner-profile">
+                <div class="owner-avatar">{{ (owner.owner_name or '?')[0]|upper }}</div>
+                <div class="owner-meta">
+                    {% if owner.owner_name %}
+                        <span class="owner-name">{{ owner.owner_name }}</span>
+                    {% endif %}
+                    {% if owner.owner_ph %}
+                        <span class="owner-address">{{ owner.owner_ph|unique|first }}</span>
+                    {% endif %}
+                </div>
+            </a>
+            {% endif %}
+
+            <p class="owner-note">This information may be outdated — the hostel might no longer be available and the number could have changed. Please verify before visiting.</p>
+        </div>
+        {% endif %}
+
+        {# Inquiry form removed — students now contact the owner directly (see "Contact Owner" section above).
         <div class="row contact-form fade-in">
             <div class="col-md-12">
                 <h4>Inquire About {{ details.hostel_name }}</h4>
@@ -167,6 +204,7 @@
                 </form>
             </div>
         </div>
+        #}
 
     </div>
 
@@ -177,11 +215,12 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    {# Inquiry form scripts disabled — form removed in favour of direct owner contact.
     <script>
         document.getElementById('fullName').addEventListener('input', function() {
             var fullNameInput = this.value.trim(); // Trim whitespace from input
             var errorMessage = document.getElementById('fullNameError');
-            
+
             if (fullNameInput.length <= 2) {
                 this.setCustomValidity('Name must be greater than 2 letters.');
                 errorMessage.textContent = 'Name must be greater than 2 letters.';
@@ -196,6 +235,7 @@
             document.getElementById('submitButton').disabled = true;
         });
     </script>
+    #}
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const observerOptions = {
