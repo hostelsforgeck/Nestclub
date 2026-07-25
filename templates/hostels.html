@@ -22,35 +22,38 @@
 </head>
 <body class="text-light">
   <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">Nestclub</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">&#9776;</span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/services">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/survey">Properties</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/privacy-policy">Terms&Guidelines</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link btn btn-outline-light contact-us" href="/contactus">Contact Us</a>
-        </li>
-      </ul>
+    <div class="container">
+      <a class="navbar-brand" href="#">Nestclub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">&#9776;</span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/survey">Properties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/privacy-policy">Terms&Guidelines</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-outline-light contact-us" href="/contactus">Contact Us</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <div class="container my-5 fade-in visible">
     {% if hostels %}
       <h2 class="mb-4 fade-in">Featured Hostels</h2>
-      <p class="mb-5 fade-in">Explore our handpicked selection of featured hostels. Each listing offers a glimpse into exceptional homes available through Nestclub. Click 'Details' to learn more and choose the best hostel for you.</p>
+      <p class="mb-4 fade-in">Explore our handpicked selection of featured hostels. Each listing offers a glimpse into exceptional homes available through Nestclub. Click 'Details' to learn more and choose the best hostel for you.</p>
+      <p class="listing-note mb-5 fade-in">This information may be outdated. The hostel might no longer be available and the number could have changed. Please verify before visiting.</p>
       <div class="row">
         {% for key,hostel in hostels.items() %}
         <div class="col-lg-4 col-md-6 mb-4 fade-in">

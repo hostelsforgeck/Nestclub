@@ -9,9 +9,15 @@ body {
     min-height: 100vh;
 }
 .navbar {
-    background-color: #121212;
-    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
 }
+.navbar > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .navbar-brand {
     font-weight: 700;
     font-size: 1.5em;
@@ -33,12 +39,12 @@ border-radius: 50%;
 width: 200px;
 height: 200px;
 margin-bottom: 20px;
-border: 1px solid #ffffff;  /* Changed to solid border */
-box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);  /* Enhanced box-shadow for a subtle glow */
+border: 1px solid #ffffff;
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 .about-section img:hover {
-transform: scale(1.05); /* Slight zoom effect on hover */
+transform: scale(1.05);
 }
 .social-links {
     margin-bottom: 20px;

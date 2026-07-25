@@ -6,12 +6,18 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensures the page takes at least the height of the viewport */
+    min-height: 100vh;
 }
 .navbar {
-    background-color: #121212;
-    border-radius: 10px;
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
 }
+.navbar > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .navbar-brand {
     font-weight: 700;
     font-size: 1.5em;
@@ -23,8 +29,8 @@ body {
 .section-header {
     text-align: center;
     margin: 40px 0;
-    opacity: 0; /* Start hidden */
-    transform: translateY(20px); /* Start slightly down */
+    opacity: 0;
+    transform: translateY(20px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 .section-header.visible {
@@ -40,8 +46,8 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255,255,255,0.2);
     margin-bottom: 20px;
-    opacity: 0; /* Start hidden */
-    transform: translateY(20px); /* Start slightly down */
+    opacity: 0;
+    transform: translateY(20px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 .description-section.visible {
@@ -61,13 +67,13 @@ body {
     content: counter(list-item) ". ";
     counter-increment: list-item;
     display: inline-block;
-    width: 1.5em; /* Adjust width to align the text properly */
-    margin-left: -1.5em; /* Negative margin to align numbers and text */
+    width: 1.5em;
+    margin-left: -1.5em;
 }
 .numbered-list {
     counter-reset: list-item;
     list-style: none;
-    padding-left: 20px; /* Indent to match negative margin of ::before */
+    padding-left: 20px;
 }
 footer {
     background-color: #121212;
@@ -75,8 +81,8 @@ footer {
     text-align: center;
     padding: 20px 10px;
     width: 100%;
-    flex-shrink: 0; /* Ensures footer doesn't shrink */
-    margin-top: auto; /* Pushes footer to bottom */
+    flex-shrink: 0;
+    margin-top: auto;
     border-radius: 10px;
 }
 .navbar-nav .nav-item {

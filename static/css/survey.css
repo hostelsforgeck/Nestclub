@@ -6,8 +6,15 @@ body {
     padding: 0;
 }
 .navbar {
-    background-color: #121212;
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
 }
+.navbar > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .navbar-brand {
     font-weight: 700;
     font-size: 1.5em;

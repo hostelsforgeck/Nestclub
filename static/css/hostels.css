@@ -1,5 +1,5 @@
 body {
-  /* background: linear-gradient(45deg, #000000, #1f1f1f); */
+
   background: #121212;
   font-family: 'Poppins', sans-serif;
   display: flex;
@@ -11,7 +11,26 @@ body {
   flex: 1;
 }
 
-/* ---------- Hostel Card ---------- */
+.listing-note {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  background: #1b1b1f;
+  border: 1px solid #2a2a2f;
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-size: 0.85em;
+  line-height: 1.6;
+  color: #a8a8b0;
+}
+
+.listing-note::before {
+  content: "\26A0";
+  color: #b47be0;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
 .hostel-card {
   position: relative;
   display: flex;
@@ -30,7 +49,6 @@ body {
   cursor: pointer;
 }
 
-/* Stretch the details link across the whole card so clicking anywhere navigates */
 .btn-details::after {
   content: "";
   position: absolute;
@@ -38,9 +56,6 @@ body {
   z-index: 1;
 }
 
-/* Keep inner links clickable above the stretched overlay.
-   Note: do NOT raise .card-media here, or the image area covers the
-   overlay and clicks on the image won't navigate. */
 .badges a {
   position: relative;
   z-index: 2;
@@ -56,9 +71,6 @@ body {
   display: block;
 }
 
-/* Subtle top darkening only — keeps the price tag legible.
-   The image→details fade lives on .card-content (see below) so it
-   stays stable while the image scales on hover. */
 .card-media::after {
   content: "";
   position: absolute;
@@ -106,8 +118,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  /* Pull up over the image bottom and fade from transparent → card colour,
-     so the picture melts into the details instead of a hard edge. */
+
   margin-top: -44px;
   padding: 58px 20px 20px;
   background: linear-gradient(180deg, rgba(27, 27, 31, 0) 0%, #1b1b1f 44px);
@@ -184,8 +195,15 @@ a:hover .badge-pill.primary {
 }
 
 .navbar {
-  background-color: #121212;
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
 }
+.navbar > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .navbar-brand {
   font-weight: 700;
   font-size: 1.5em;
